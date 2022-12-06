@@ -58,8 +58,6 @@ nav {
   height: 800px;
   background-position: center;
   background-size: cover;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
 }
 .home-btn:hover {
   background: white;
