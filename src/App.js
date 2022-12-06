@@ -13,7 +13,7 @@ function App() {
           src={require("./pictures/logo3.png")}
           className="ml-[50px] h-[90px]"
         />
-        <nav className="m-auto text-four text-white text-xl ">
+        <nav className="m-auto text-four text-white text-lg font-medium ">
           <ul className="flex flex-row m-auto  ">
             <li className="mr-10">Home</li>
             <li className="mr-10">Ground Floor</li>
