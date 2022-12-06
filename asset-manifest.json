@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/casaladerapv/static/css/main.fea3c74b.css",
+    "main.js": "/casaladerapv/static/js/main.790145d4.js",
+    "static/js/787.5622ed9e.chunk.js": "/casaladerapv/static/js/787.5622ed9e.chunk.js",
+    "static/media/HP2.jpg": "/casaladerapv/static/media/HP2.bc3dd482ec3ecccc58db.jpg",
+    "static/media/HP7.jpg": "/casaladerapv/static/media/HP7.e8884ada9bc7cee36f0f.jpg",
+    "static/media/HP4.jpg": "/casaladerapv/static/media/HP4.e727e5bbbdda934c6e48.jpg",
+    "static/media/HP5.jpg": "/casaladerapv/static/media/HP5.8e47c6457e6a3b10e2f8.jpg",
+    "static/media/HP3.jpg": "/casaladerapv/static/media/HP3.b9f3e35f0403c056021b.jpg",
+    "static/media/HP8-2.jpg": "/casaladerapv/static/media/HP8-2.0199ad23eb0b200d0139.jpg",
+    "static/media/HP6.jpg": "/casaladerapv/static/media/HP6.b44b90ba6ec54d6d4fea.jpg",
+    "static/media/HP9.jpg": "/casaladerapv/static/media/HP9.7d4978f1b8560f6b804a.jpg",
+    "static/media/HP1.jpg": "/casaladerapv/static/media/HP1.fc07661bd1991ada9b42.jpg",
+    "static/media/HP10.jpg": "/casaladerapv/static/media/HP10.951b4fbd9adc1a61c204.jpg",
+    "static/media/logo3.png": "/casaladerapv/static/media/logo3.597f1d43f8b9d26ea12a.png",
+    "static/media/logo.svg": "/casaladerapv/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/casaladerapv/index.html",
+    "main.fea3c74b.css.map": "/casaladerapv/static/css/main.fea3c74b.css.map",
+    "main.790145d4.js.map": "/casaladerapv/static/js/main.790145d4.js.map",
+    "787.5622ed9e.chunk.js.map": "/casaladerapv/static/js/787.5622ed9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fea3c74b.css",
+    "static/js/main.790145d4.js"
+  ]
+}
