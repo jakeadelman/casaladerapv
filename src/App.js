@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="App">
       <div className="fixed top-0 bg-four h-[100px] w-screen flex flex-row justify-between">
-        <img
-          src={require("./pictures/logo3.png")}
-          className="ml-[50px] h-[90px]"
-        />
-        <nav className="m-auto text-four text-white text-lg font-medium ">
+        <a href="/">
+          <img
+            src={require("./pictures/logo3.png")}
+            className="ml-[50px] h-[90px]"
+          />
+        </a>
+        <nav className="m-auto text-four text-white text-lg ">
           <ul className="flex flex-row m-auto  ">
             <li className="mr-10">Home</li>
             <li className="mr-10">Ground Floor</li>
