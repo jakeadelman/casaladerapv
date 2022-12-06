@@ -8,7 +8,7 @@ import Section6 from "./components/Section6";
 function App() {
   return (
     <div className="App">
-      <div className="fixed top-0 bg-four h-[100px] w-screen flex flex-row justify-between">
+      <div className="fixed top-0 bg-four h-[100px] w-screen flex flex-row justify-between z-50">
         <a href="/">
           <img
             src={require("./pictures/logo3.png")}
@@ -17,12 +17,12 @@ function App() {
         </a>
         <nav className="m-auto text-four text-white text-lg ">
           <ul className="flex flex-row m-auto  ">
-            <li className="mr-10">Home</li>
-            <li className="mr-10">Ground Floor</li>
-            <li className="mr-10">Main Floor</li>
-            <li className="mr-10">Penthouse</li>
-            <li className="mr-10">Reviews</li>
-            <li className="mr-10">Contact</li>
+            <li className="mr-10 hover:cursor-pointer">Home</li>
+            <li className="mr-10 hover:cursor-pointer">Ground Floor</li>
+            <li className="mr-10 hover:cursor-pointer">Main Floor</li>
+            <li className="mr-10  hover:cursor-pointer">Penthouse</li>
+            <li className="mr-10  hover:cursor-pointer">Reviews</li>
+            <li className="mr-10  hover:cursor-pointer">Contact</li>
           </ul>
         </nav>
       </div>

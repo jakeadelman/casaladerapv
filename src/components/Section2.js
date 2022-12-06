@@ -11,10 +11,21 @@ const Section2 = () => {
       </div>
       <div className="basis-1/2 flex flex-col">
         <div className="flex flex-row">
-          <img
-            src={require("../pictures/HP3.jpg")}
-            className="w-[400px] md-img"
-          />
+          <div class="flip-box cursor-pointer">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img
+                  src={require("../pictures/HP3.jpg")}
+                  className="w-[400px] md-img"
+                />
+              </div>
+              <div class="flip-box-back mt-[130px]">
+                <p className="text-xl font-bold flex justify-center items-center align-center">
+                  View more
+                </p>
+              </div>
+            </div>
+          </div>
           <p className="flex items-center text-center justify-start pl-10 w-full font-bold text-2xl">
             Penthouse | One Bedroom
           </p>
@@ -23,16 +34,38 @@ const Section2 = () => {
           <p className="flex items-center text-center justify-end pr-10 w-full font-bold text-2xl relative">
             Main Floor | One Bedroom
           </p>
-          <img
-            src={require("../pictures/HP4.jpg")}
-            className="w-[400px] md-img"
-          />
+          <div class="flip-box cursor-pointer">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img
+                  src={require("../pictures/HP4.jpg")}
+                  className="w-[400px] md-img"
+                />
+              </div>
+              <div class="flip-box-back mt-[140px]">
+                <p className="text-xl font-bold flex justify-center items-center align-center">
+                  View more
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="flex flex-row">
-          <img
-            src={require("../pictures/HP5.jpg")}
-            className="w-[400px] md-img"
-          />
+          <div class="flip-box cursor-pointer">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img
+                  src={require("../pictures/HP5.jpg")}
+                  className="w-[400px] md-img"
+                />
+              </div>
+              <div class="flip-box-back mt-[130px]">
+                <p className="text-xl font-bold flex justify-center items-center align-center">
+                  View more
+                </p>
+              </div>
+            </div>
+          </div>
           <p className="flex items-center text-center justify-start pl-10 w-full font-bold text-2xl">
             Ground Floor | Two Bedroom
           </p>
