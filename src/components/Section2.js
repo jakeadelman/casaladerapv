@@ -19,7 +19,7 @@ const Section2 = () => {
             Penthouse | One Bedroom
           </p>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-5 mb-5">
           <p className="flex items-center text-center justify-end pr-10 w-full font-bold text-2xl relative">
             Main Floor | One Bedroom
           </p>
