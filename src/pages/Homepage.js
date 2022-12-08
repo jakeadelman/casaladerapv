@@ -16,7 +16,7 @@ const Homepage = () => {
           className="h-[800px] object-cover w-screen"
         />
         {/* <div className=" absolute w-[40%] bg-black h-[20%] right-[33%] top-[46%] opacity-100"></div> */}
-        <div className="absolute text-5xl  text-white right-[35%] top-[50%]">
+        <div className="absolute text-6xl  text-white right-[28%] top-[50%]">
           <div className=" ">Welcome to Casa Ladera</div>
           <div className="text-3xl"> Puerto Vallarta</div>
         </div>
