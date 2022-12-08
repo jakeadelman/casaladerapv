@@ -1,10 +1,10 @@
 const Section4 = () => {
   return (
-    <div className="bg-four">
-      <div className="flex flex-row mt-[100px]">
+    <div className=" relative z-10">
+      <div className="flex flex-row  z-10">
         <div className="basis-1/2 flex justify-end backgimg2"></div>
-        <div className="basis-1/2 flex flex-col items-center justify-center p-20 text-xl">
-          <p className="text-left text-white text-2xl">
+        <div className="basis-1/2 flex flex-col text-xl">
+          <p className="text-left font-light text-2xl p-20 pt-10 m-auto">
             Casa Ladera has fantastic access (5 - 10 minute walk straight down
             the hill) to shops, fine restaurants, multiple art galleries and all
             the people-watching and nightlife the Malecon has to offer.
