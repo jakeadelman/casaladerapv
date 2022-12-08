@@ -17,7 +17,7 @@ const Section2 = () => {
               className="image w-[400px] md-img"
             />
             <div class="middle">
-              <div class="text-3xl">View</div>
+              <div class="text-3xl font-light">View More</div>
             </div>
           </div>
           <p className="flex items-center text-center justify-start pl-10 w-full font-light  text-3xl">
@@ -34,7 +34,7 @@ const Section2 = () => {
               className="image w-[500px] md-img"
             />
             <div class="middle">
-              <div class="text-3xl ">View</div>
+              <div class="text-3xl font-light ">View More</div>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Section2 = () => {
               className="image w-[400px] md-img"
             />
             <div class="middle">
-              <div class="text-3xl ">View</div>
+              <div class="text-3xl font-light ">View More</div>
             </div>
           </div>
           <p className="flex items-center text-center justify-start pl-10 w-full font-light text-3xl">

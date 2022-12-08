@@ -9,7 +9,7 @@ const Section1 = () => {
         </p>
         <div className="flex flex-row pt-20">
           <p className="mr-[100px] ml-20 text-9xl relative">
-            <span className="absolute bottom-[-40px] left-[100px] font-light -z-50 text-six mod">
+            <span className="absolute bottom-[-40px] left-[95px] font-light -z-50 text-six mod">
               3
             </span>
             <span className="text-5xl font-light">Apartments</span>
