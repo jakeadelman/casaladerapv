@@ -195,3 +195,9 @@ nav span:hover:after {
 .mod {
   font-family: 'Modern Antiqua', cursive;
 }
+
+.bg-main {
+  background-image: url('./pictures/HP1.jpg');
+  background-size: cover;
+  background-position: center;
+}
