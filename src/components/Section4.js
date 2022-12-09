@@ -1,6 +1,6 @@
 const Section4 = () => {
   return (
-    <div className=" relative z-10 bg-eight">
+    <div className=" relative z-10 ml-[100px] bg-eight">
       <div className="flex flex-row  z-10">
         <div className="basis-1/2 flex justify-end backgimg2"></div>
         <div className="basis-1/2  flex flex-col text-xl">
