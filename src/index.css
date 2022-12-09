@@ -43,7 +43,7 @@ nav {
 }
 
 .card:hover {
-  border: 2px solid #215482;
+  outline: 2px solid #215482;
   cursor: pointer;
 }
 
