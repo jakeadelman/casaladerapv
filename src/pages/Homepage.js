@@ -1,31 +1,37 @@
 import Nav from "../components/Nav";
+import Nav2 from "../components/Nav2";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
 import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
+import Section15 from "../components/Section15";
 
 const Homepage = () => {
   return (
     <div>
       <Nav />
-      <div className="bg-main block h-[800px] flex justify-center items-center w-full block">
-        {/* <img
-          src={require("../pictures/HP1.jpg")}
-          className="h-[800px] object-cover w-screen"
-        /> */}
-        {/* <div className=" absolute w-[40%] bg-black h-[20%] right-[33%] top-[46%] opacity-100"></div> */}
-        {/* <div className=" text-6xl text-white z-50 "> */}
-        <div>
-          <div className=" text-6xl text-white">Welcome to Casa Ladera</div>
-          <div className="text-3xl text-white"> Puerto Vallarta</div>
+      <div className="flex flex-row relative overflow-hidden pl-[100px]">
+        <div className="basis-2/5 relative">
+          <img
+            src={require("../pictures/grain1.jpg")}
+            className="opacity-10 absolute w-[100%] h-[100%]"
+          />
+          <div className=" bg-main  h-screen  "></div>
         </div>
-        {/* </div> */}
+        <div className="basis-3/5 m-auto text-left p-20 ">
+          <div className=" top-piece text-8xl text-six font-extrabold text-left">
+            <span className="text-9xl mod3"> Casa Ladera</span>
+          </div>
+          <div className="text-3xl text-six text-left top-piece mod3 ml-4">
+            Puerto Vallarta
+          </div>
+        </div>
       </div>
-      <Section1 />
 
-      <Section2 />
+      <Section1 />
+      <Section15 />
 
       <Section3 />
 

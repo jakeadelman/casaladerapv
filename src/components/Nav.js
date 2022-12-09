@@ -1,14 +1,15 @@
 const Nav = () => {
   return (
-    <div className="fixed top-0 bg-white h-[100px] w-screen flex flex-row justify-between z-50">
+    <div className="fixed top-0 left-0 bg-six w-[100px] h-full   flex flex-col  z-50">
       <a href="/">
         <img
-          src={require("../pictures/logo.png")}
-          className="ml-[100px] mt-[10px] h-[80px]"
+          src={require("../pictures/logo3.png")}
+          className=" absolute ml-[10px] mt-[10px] h-[80px] w-[80px]"
         />
       </a>
-      <nav className="ml-auto m-auto uppercase tracking-wider text-six text-xl font-medium mr-10 ">
-        <ul className="flex flex-row m-auto nav ">
+      <img src={require("../pictures/menu3.png")} className="m-auto w-[50px]" />
+      {/* <nav className="ml-auto m-auto uppercase tracking-widest text-six text-lg font-medium mr-10 "> */}
+      {/* <ul className="flex flex-row m-auto nav ">
           <a href="/">
             <li className="mr-10 hover:cursor-pointer">
               <span>Home</span>
@@ -33,8 +34,8 @@ const Nav = () => {
           <li className="mr-10  hover:cursor-pointer">
             <span>Contact</span>
           </li>
-        </ul>
-      </nav>
+        </ul> */}
+      {/* </nav> */}
     </div>
   );
 };
