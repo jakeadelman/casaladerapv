@@ -1,15 +1,18 @@
 import Nav from "../components/Nav";
+import Nav2 from "../components/Nav2";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
 import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
+import Section15 from "../components/Section15";
 
 const Homepage = () => {
   return (
     <div>
       <Nav />
+
       <div className="bg-main block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         {/* <img
           src={require("../pictures/HP1.jpg")}
@@ -21,12 +24,13 @@ const Homepage = () => {
         <div className="mt-200px m-auto">
           <div className=" text-5xl text-white">Welcome to Casa Ladera</div>
           <div className="text-3xl text-white"> Puerto Vallarta</div>
+
         </div>
         {/* </div> */}
       </div>
-      <Section1 />
 
-      <Section2 />
+      <Section1 />
+      <Section15 />
 
       <Section3 />
 

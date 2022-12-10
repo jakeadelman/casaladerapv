@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Modern+Antiqua&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fira+Sans:wght@300;400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Modern+Antiqua&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   margin: 0;
   font-family: 'Fira Sans', sans-serif;
@@ -33,20 +33,19 @@ nav {
 .backgimg {
   background-image: url('./pictures/HP2.jpg');
   width: 100%;
-  height: 800px;
+  height: 500px;
   background-position: center;
   background-size: cover;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
 }
 
 .md-img {
-  border-radius: 10px;
   width: 400px;
 }
 
 .card:hover {
+
   border-radius: 10px;
+
   outline: 2px solid #215482;
   cursor: pointer;
 }
@@ -196,8 +195,10 @@ nav span:hover:after {
   font-family: 'Modern Antiqua', cursive;
 }
 
+
 .bg-main {
   background-image: url('./pictures/HP1.jpg');
   background-size: cover;
   background-position: center;
 }
+

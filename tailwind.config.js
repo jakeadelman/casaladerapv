@@ -14,8 +14,11 @@ module.exports = {
       white: colors.white,
       pink: "#fd90b0",
       six: "#215482",
+      seven: "#f0f0f1",
       black: colors.black,
+
       seven: "#e9eef2",
+
       eight: "#f5f5f5",
     },
     extend: {},

@@ -1,7 +1,9 @@
 const Section2 = () => {
   return (
+
     <div className="flex flex-row mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
       <div className="basis-3/5 flex flex-col  items-center justify-center p-20 text-xl z-20">
+
         <p className="text-left font-light">
           The top two floors each have a single bedroom, while the ground floor
           unit contains two bedrooms. Each floor boasts a fully equipped kitchen
@@ -24,8 +26,10 @@ const Section2 = () => {
             Penthouse | One Bedroom
           </p>
         </div>
+
         <div className="flex flex-row mt-5 mb-5">
           <p className="flex items-center text-center justify-end pr-10 w-full font-light text-2xl relative">
+
             Main Floor | One Bedroom
           </p>
           <div class="container2 cursor-pointer">
