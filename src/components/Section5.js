@@ -1,8 +1,8 @@
 const Section5 = () => {
   return (
-    <div className="p-[200px] ">
-      <h2 className="text-4xl p-10 font-light ">Let's Talk</h2>
-      <p className="text-2xl p-10 pt-0 text-left font-light">
+    <div className="p-[200px]">
+      <h2 className="text-3xl p-10 font-light ">Let's Talk</h2>
+      <p className="text-xl p-10 pt-0 text-left font-light">
         Get in touch today to schedule and reserve your stay, or if you’re
         already in Puerto Vallarta, we can arrange a house viewing with our
         House Manager. We look forward to hearing from you and answering any

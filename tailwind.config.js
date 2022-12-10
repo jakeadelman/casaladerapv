@@ -15,6 +15,8 @@ module.exports = {
       pink: "#fd90b0",
       six: "#215482",
       black: colors.black,
+      seven: "#e9eef2",
+      eight: "#f5f5f5",
     },
     extend: {},
     screens: {

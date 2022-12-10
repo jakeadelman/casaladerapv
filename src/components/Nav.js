@@ -7,7 +7,7 @@ const Nav = () => {
           className="ml-[100px] mt-[10px] h-[80px]"
         />
       </a>
-      <nav className="ml-auto m-auto uppercase tracking-wider text-six text-xl font-medium mr-10 ">
+      <nav className="ml-auto m-auto uppercase tracking-wider text-six text-lg  font-medium mr-10 ">
         <ul className="flex flex-row m-auto nav ">
           <a href="/">
             <li className="mr-10 hover:cursor-pointer">

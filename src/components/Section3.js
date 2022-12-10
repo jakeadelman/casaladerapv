@@ -9,7 +9,7 @@ const Section3 = () => {
               src={require("../pictures/HP6.jpg")}
               className="rounded-[10px]"
             />
-            <p className="mt-10 text-3xl pb-10  text-left font-light">
+            <p className="mt-10 text-2xl pb-10  text-left font-light">
               Penthouse
             </p>
           </div>
@@ -18,7 +18,7 @@ const Section3 = () => {
               src={require("../pictures/HP7.jpg")}
               className="rounded-[10px]"
             />
-            <p className="mt-10 text-3xl pb-10 font-light text-left">
+            <p className="mt-10 text-2xl pb-10 font-light text-left">
               Main Floor
             </p>
           </div>
@@ -27,12 +27,12 @@ const Section3 = () => {
               src={require("../pictures/HP8-2.jpg")}
               className="rounded-[10px] z-20"
             />
-            <p className="mt-10 text-3xl pb-10 text-left font-light">
+            <p className="mt-10 text-2xl pb-10 text-left font-light">
               Ground Floor
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center pl-20 pr-20 pb-[150px] font-light text-left mt-20 text-2xl relative z-20">
+        <div className="flex flex-col items-center justify-center pl-20 pr-20 pb-[150px] font-light text-left mt-20 text-xl relative z-20">
           All 3 floors offer large, open indoor/outdoor spaces with unbeatable,
           endless ocean views. Although each unit is autonomous, any or all can
           easily be combined to create a super-large, connected space for the
