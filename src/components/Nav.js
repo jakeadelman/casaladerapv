@@ -14,17 +14,20 @@ const Nav = () => {
               <span>Home</span>
             </li>
           </a>
-          <a href="/ground-floor">
-            <li className="mr-10 hover:cursor-pointer">
-              <span>Ground Floor</span>
+          <a href="/penthouse">
+            <li className="mr-10  hover:cursor-pointer">
+              <span>Penthouse</span>
             </li>
           </a>
           <li className="mr-10 hover:cursor-pointer">
             <span>Main Floor</span>
           </li>
-          <li className="mr-10  hover:cursor-pointer">
-            <span>Penthouse</span>
-          </li>
+          <a href="/ground-floor">
+            <li className="mr-10 hover:cursor-pointer">
+              <span>Ground Floor</span>
+            </li>
+          </a>
+
           <li className="mr-10  hover:cursor-pointer">
             <span>
               <span>Reviews</span>

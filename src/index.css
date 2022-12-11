@@ -36,17 +36,14 @@ nav {
   height: 800px;
   background-position: center;
   background-size: cover;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
 }
 
 .md-img {
-  border-radius: 10px;
   width: 400px;
 }
 
 .card:hover {
-  border-radius: 10px;
+  /* border-radius: 20px; */
   outline: 2px solid #215482;
   cursor: pointer;
 }
@@ -200,4 +197,20 @@ nav span:hover:after {
   background-image: url('./pictures/HP1.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.bg-ground {
+  background-image: url('./pictures/GF1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.bg-penthouse {
+  background-image: url('./pictures/PH1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.back-ground-floor {
+  background-image: url('./pictures/GF18.jpg');
+  background-size: cover;
 }
