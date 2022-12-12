@@ -1,7 +1,6 @@
 const Section3 = () => {
   return (
     <div className="relative pt-[100px]">
-      {/* <div className="absolute -right-[200px]  w-[140%] h-[120%] bg-white  z-10 "></div> */}
       <div className="z-50">
         <div className="flex flex-row p-5 pr-20 pl-20 z-20">
           <div className="basis-1/3 p-2 card z-20">

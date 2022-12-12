@@ -8,9 +8,11 @@ const Section5 = () => {
         House Manager. We look forward to hearing from you and answering any
         questions.
       </p>
-      <button className="bg-six pl-10 pr-10 pt-4 pb-4 tracking-widest  text-white text-xl  home-btn">
-        GET IN TOUCH
-      </button>
+      <a href="/contact">
+        <button className="bg-six pl-10 pr-10 pt-4 pb-4 tracking-widest  text-white text-xl  home-btn">
+          GET IN TOUCH
+        </button>
+      </a>
     </div>
   );
 };

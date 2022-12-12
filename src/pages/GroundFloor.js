@@ -207,9 +207,11 @@ const GroundFloor = () => {
           our friendly mountainside neighbourhood sits at your feet, waiting to
           be explored at your leisure.
         </div>
-        <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
-          GET IN TOUCH
-        </button>
+        <a href="/contact">
+          <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
+            GET IN TOUCH
+          </button>
+        </a>
       </div>
     </div>
   );

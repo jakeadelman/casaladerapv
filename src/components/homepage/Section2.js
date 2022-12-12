@@ -11,15 +11,17 @@ const Section2 = () => {
       </div>
       <div className="basis-2/5 flex flex-col z-20">
         <div className="flex flex-row">
-          <div class="container2 cursor-pointer">
-            <img
-              src={require("../../pictures/HP3.jpg")}
-              className="image w-[400px] md-img"
-            />
-            <div class="middle">
-              <div class="text-2xl font-light">View More</div>
+          <a href="/penthouse">
+            <div class="container2 cursor-pointer">
+              <img
+                src={require("../../pictures/HP3.jpg")}
+                className="image w-[400px] md-img"
+              />
+              <div class="middle">
+                <div class="text-2xl font-light">View More</div>
+              </div>
             </div>
-          </div>
+          </a>
           <p className="flex items-center text-center justify-start pl-10 w-full font-light  text-2xl">
             Penthouse | One Bedroom
           </p>
@@ -28,26 +30,30 @@ const Section2 = () => {
           <p className="flex items-center text-center justify-end pr-10 w-full font-light text-2xl relative">
             Main Floor | One Bedroom
           </p>
-          <div class="container2 cursor-pointer">
-            <img
-              src={require("../../pictures/HP4.jpg")}
-              className="image w-[500px] md-img"
-            />
-            <div class="middle">
-              <div class="text-2xl font-light ">View More</div>
+          <a href="/main-floor">
+            <div class="container2 cursor-pointer">
+              <img
+                src={require("../../pictures/HP4.jpg")}
+                className="image w-[500px] md-img"
+              />
+              <div class="middle">
+                <div class="text-2xl font-light ">View More</div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="flex flex-row">
-          <div class="container2 cursor-pointer">
-            <img
-              src={require("../../pictures/HP5.jpg")}
-              className="image w-[400px] md-img"
-            />
-            <div class="middle">
-              <div class="text-2xl font-light ">View More</div>
+          <a href="/ground-floor">
+            <div class="container2 cursor-pointer">
+              <img
+                src={require("../../pictures/HP5.jpg")}
+                className="image w-[400px] md-img"
+              />
+              <div class="middle">
+                <div class="text-2xl font-light ">View More</div>
+              </div>
             </div>
-          </div>
+          </a>
           <p className="flex items-center text-center justify-start pl-10 w-full font-light text-2xl">
             Ground Floor | Two Bedroom
           </p>
