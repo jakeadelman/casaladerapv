@@ -200,14 +200,14 @@ const GroundFloor = () => {
           breezes rock you to sleep.
         </div>
       </div>
-      <div className="w-[100%] back-ground-floor h-[1000px] mt-[100px] relative">
-        <div className="absolute top-[40%] left-[30%]  w-[800px] bg-white p-10 z-10">
+      <div className="w-[100%] back-ground-floor h-[1000px] mt-[100px] flex justify-center items-center flex-col">
+        <div className="w-[600px] bg-white p-10">
           Enjoy the view of Puerto Vallarta's Centro zone under beautifully
           brilliant blue skies from the comfort of the fully covered balcony -
           our friendly mountainside neighbourhood sits at your feet, waiting to
           be explored at your leisure.
         </div>
-        <button className="absolute top-[60%] left-[47%] bg-white cursor-pointer  p-4 pr-10 pl-10 tracking-widest ">
+        <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
           GET IN TOUCH
         </button>
       </div>

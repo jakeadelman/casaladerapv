@@ -204,8 +204,23 @@ nav span:hover:after {
   background-size: cover;
   background-position: center;
 }
+.bg-reviews {
+  background-image: url('./pictures/RP1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.bg-contact {
+  background-image: url('./pictures/CP1.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .bg-penthouse {
   background-image: url('./pictures/PH1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.bg-main-floor {
+  background-image: url('./pictures/MP1.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -213,4 +228,24 @@ nav span:hover:after {
 .back-ground-floor {
   background-image: url('./pictures/GF18.jpg');
   background-size: cover;
+}
+
+.back-main-floor {
+  background-image: url('./pictures/MP19.jpg');
+  background-size: cover;
+}
+
+.back-penthouse {
+  background-image: url('./pictures/PH18.jpg');
+  background-size: cover;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+textarea::placeholder {
+  color: black;
+  opacity: 1;
 }

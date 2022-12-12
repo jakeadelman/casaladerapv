@@ -17,6 +17,7 @@ module.exports = {
       black: colors.black,
       seven: "#e9eef2",
       eight: "#f5f5f5",
+      gray: colors.gray,
     },
     extend: {},
     screens: {

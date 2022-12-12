@@ -92,8 +92,8 @@ const Penthouse = () => {
         </div>
       </div>
       <div className="flex flex-row">
-        <div className="basis-2/4"></div>
-        <div className="basis-1/4">
+        <div className="basis-1/4"></div>
+        <div className="basis-2/4 pr-10 mt-[100px]">
           The kitchen has all you'll need, from appliances to flatware, to enjoy
           preparing and eating a delicious home cooked meal when you just don't
           feel like venturing out.
@@ -101,6 +101,77 @@ const Penthouse = () => {
         <div className="basis-1/4">
           <img src={require("../pictures/PH10.jpg")} className="" />
         </div>
+      </div>
+      <div className="flex flex-row relative">
+        <div className="basis-1/4 absolute -top-[300px] w-[400px] p-20">
+          The open framed wall that separates the kitchen from the dining area
+          allows light and cooling breezes in, meaning cooking never gets
+          uncomfortable.
+        </div>
+        <div className="basis-1/4 absolute left-[400px] -top-[400px] w-[600px]">
+          <img src={require("../pictures/PH11.jpg")} className="" />
+        </div>
+        <div className="basis-2/4"></div>
+      </div>
+      <div className="flex flex-row pt-[350px]">
+        <div className="basis-1/3">
+          <img src={require("../pictures/PH12.jpg")} className="" />
+        </div>
+        <div className="basis-1/3 p-20">
+          <img src={require("../pictures/PH13.jpg")} className="" />
+        </div>
+        <div className="basis-1/3 mt-[100px]">
+          The ensuite bathroom walls, bathtub and shower feature antique Mexican
+          glass tiles, accented with clay bricks. The granite topped counter
+          features a locally-produced, colourfully hand-painted ceramic sink.
+        </div>
+      </div>
+      <div className="flex flex-row">
+        <div className="basis-1/3">
+          <img src={require("../pictures/PH15.jpg")} className="mt-[200px]" />
+        </div>
+        <div className="basis-1/3 p-20">
+          After a long day in the sun, you'll sleep like a baby in the large,
+          airy bedroom - it has air conditioning and a ceiling fan, but you may
+          not need them thanks to the cool inversion wind rolling nightly down
+          the mountain. The king-sized bed, under the wood beam vaulted ceiling,
+          is perfect for a siesta - either breve o larga.
+        </div>
+        <div className="basis-1/3 relative">
+          <img
+            src={require("../pictures/PH14.jpg")}
+            className="absolute -top-[200px]"
+          />
+        </div>
+      </div>
+      <div className="flex flex-row">
+        <div className="basis-1/2 flex justify-center items-center pl-[200px]">
+          Walk directly out of the bedroom onto the second patio and you'll see
+          the main patio with the rooftop Skydeck up the circular staircase.
+        </div>
+        <div className="basis-1/2">
+          <img src={require("../pictures/PH16.jpg")} className="p-20" />
+        </div>
+      </div>
+      <div className="flex flex-row">
+        <div className="basis-2/5">
+          <img src={require("../pictures/PH17.jpg")} />
+        </div>
+        <div className="basis-2/5 p-20 flex justify-center items-center">
+          Unbelievable, techni-colour sunsets included free-of-charge, seven
+          days a week, 365 days a year.
+        </div>
+        <div className="basis-1/5"></div>
+      </div>
+      <div className="w-[100%] back-penthouse h-[1000px] mt-[100px] flex justify-center items-center flex-col">
+        <div className="w-[600px] bg-white p-10">
+          This is a fabulous location offering easy access to everything Puerto
+          Vallarta has to offer, while simultaneously providing a private,
+          elegant retreat in the sunny blue skies.
+        </div>
+        <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
+          GET IN TOUCH
+        </button>
       </div>
     </div>
   );

@@ -5,22 +5,29 @@ const Section3 = () => {
       <div className="z-50">
         <div className="flex flex-row p-5 pr-20 pl-20 z-20">
           <div className="basis-1/3 p-2 card z-20">
-            <img src={require("../../pictures/HP6.jpg")} className="" />
-            <p className="mt-10 text-2xl pb-10  text-left font-light">
-              Penthouse
-            </p>
+            <a href="/penthouse">
+              <img src={require("../../pictures/HP6.jpg")} className="" />
+              <p className="mt-10 text-2xl pb-10  text-left font-light">
+                Penthouse
+              </p>
+            </a>
           </div>
           <div className="basis-1/3 p-2 card z-20">
-            <img src={require("../../pictures/HP7.jpg")} className="" />
-            <p className="mt-10 text-2xl pb-10 font-light text-left">
-              Main Floor
-            </p>
+            <a href="/main-floor">
+              <img src={require("../../pictures/HP7.jpg")} className="" />
+              <p className="mt-10 text-2xl pb-10 font-light text-left">
+                Main Floor
+              </p>
+            </a>
           </div>
+
           <div className="basis-1/3 p-2 card z-20">
-            <img src={require("../../pictures/HP8-2.jpg")} className="" />
-            <p className="mt-10 text-2xl pb-10 text-left font-light">
-              Ground Floor
-            </p>
+            <a href="/ground-floor">
+              <img src={require("../../pictures/HP8-2.jpg")} className="" />
+              <p className="mt-10 text-2xl pb-10 text-left font-light">
+                Ground Floor
+              </p>
+            </a>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center pl-20 pr-20 pb-[150px] font-light text-left mt-20 text-xl relative z-20">
