@@ -20,37 +20,33 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="p-20 flex flex-row">
-        <div className="basis-1/2 ">
-          <div className="flex flex-col w-[500px]">
-            <input
-              className="border-2 p-2 border-gray tracking-widest "
-              placeholder="FULL NAME"
-              type="text"
-              name="name"
-            />
-            <input
-              className="border-2 p-2 border-gray mt-10 tracking-widest"
-              placeholder="E-MAIL"
-              type="text"
-              name="name"
-            />
-            <input
-              className="border-2 p-2 border-gray mt-10"
-              placeholder="TELEPHONE"
-              type="text"
-              name="name"
-            />
-            <textarea
-              className="border-2 p-2 border-gray mt-10 h-[300px]"
-              placeholder="MESSAGE"
-              type="text"
-              name="name"
-            />
-          </div>
-        </div>
-        <div className="basis-1/2 flex justify-center items-center">
-          <button className="bg-six p-2 pl-10 pr-10 text-white text-2xl tracking-widest">
+      <div className="p-20 flex flex-row justify-center">
+        <div className="flex flex-col w-[500px]">
+          <input
+            className="border-2 p-2 border-gray tracking-widest "
+            placeholder="FULL NAME"
+            type="text"
+            name="name"
+          />
+          <input
+            className="border-2 p-2 border-gray mt-10 tracking-widest"
+            placeholder="E-MAIL"
+            type="text"
+            name="name"
+          />
+          <input
+            className="border-2 p-2 border-gray mt-10"
+            placeholder="TELEPHONE"
+            type="text"
+            name="name"
+          />
+          <textarea
+            className="border-2 p-2 border-gray mt-10 h-[300px]"
+            placeholder="MESSAGE"
+            type="text"
+            name="name"
+          />
+          <button className="bg-six p-2 pl-10 pr-10 mt-10 text-white text-2xl tracking-widest">
             SEND
           </button>
         </div>
