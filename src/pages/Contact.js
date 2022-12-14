@@ -2,12 +2,12 @@ import Nav from "../components/Nav";
 
 const Contact = () => {
   return (
-    <div className=" font-light text-left text-xl ">
+    <div className=" font-light text-left text-xl text-white ">
       <Nav />
 
       <div className="bg-contact block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
-          <div className=" text-5xl text-six  ">
+          <div className=" text-5xl text-white ">
             <div className="w-[300px] p-2  m-auto">Let's Talk</div>
           </div>
           <div className="w-[600px] m-auto mt-8 p-4">
@@ -15,7 +15,7 @@ const Contact = () => {
             you’re already in Puerto Vallarta, we can arrange a house viewing
             with our House Manager.
           </div>
-          <div className="w-[600px]  m-auto mt-8 p-4">
+          <div className="w-[700px]  m-auto mt-8 p-4">
             We look forward to hearing from you and answering any questions.
           </div>
         </div>
