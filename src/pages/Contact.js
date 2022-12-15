@@ -15,7 +15,7 @@ const Contact = () => {
             you’re already in Puerto Vallarta, we can arrange a house viewing
             with our House Manager.
           </div>
-          <div className="w-[700px]  m-auto mt-8 p-4">
+          <div className="w-[700px]  m-auto mt-2 p-4">
             We look forward to hearing from you and answering any questions.
           </div>
         </div>
