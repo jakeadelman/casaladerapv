@@ -7,7 +7,7 @@ const MainFloor = () => {
 
       <div className="bg-main-floor block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
-          <div className=" text-5xl bg-white text-six  p-4 pr-10 pl-10">
+          <div className=" text-5xl text-white font-semibold  p-4 pr-10 pl-10">
             Main Floor
           </div>
         </div>
@@ -82,7 +82,7 @@ const MainFloor = () => {
         <div className="basis-1/3">
           <img src={require("../pictures/MP8.jpg")} className="pl-20" />
         </div>
-        <div className="basis-2/3 p-20">
+        <div className="basis-2/3 p-20 mb-[200px]">
           The large dinner table seats six with ease,so you can enjoy a meal at
           home as you look out over the city and the Pacific ocean below.
         </div>
@@ -183,7 +183,7 @@ const MainFloor = () => {
       <div className="flex flex-row">
         <div className="basis-1/2"></div>
         <div className="basis-1/2 relative">
-          <div className="absolute -top-[250px]">
+          <div className="absolute -top-[130px]">
             The ensuite bathroom walls, bathtub and shower all feature antique
             Mexican glass tiles, accented with Mexican clay brick transom
             windows providing cooling cross-breezes.
@@ -201,13 +201,13 @@ const MainFloor = () => {
         </div>
       </div>
       <div className="w-[100%] back-main-floor h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[600px] bg-white p-10">
+        <div className="w-[600px] text-white p-10">
           Hot hazy days are best spent soking in the infinity pool, looking out
           over the town and drinking in the endless ocean vistas – can’t you see
           yourself here?
         </div>
         <a href="/contact">
-          <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
+          <button className="tracking-widest bg-six text-white mt-10 pt-4 pb-4 pl-10 pr-10">
             GET IN TOUCH
           </button>
         </a>

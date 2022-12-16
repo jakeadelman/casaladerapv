@@ -7,14 +7,14 @@ const GroundFloor = () => {
 
       <div className="bg-ground block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
-          <div className=" text-5xl bg-white text-six  p-4 pr-10 pl-10">
+          <div className=" text-5xl text-white font-semibold p-4 pr-10 pl-10">
             Ground Floor
           </div>
         </div>
       </div>
       <div className="relative">
-        <div className="flex md:flex-row md:pt-20 md:pb-20 md:-mb-[170px] sm:flex-col  z-40 ">
-          <div className="basis-2/3 flex p-20 justify-center items-center text-xl  z-40">
+        <div className="flex md:flex-row md:pt-20 md:pb-20 md:-mb-[170px] sm:flex-col ">
+          <div className="basis-2/3 flex p-20 justify-center items-center text-xl ">
             This spacious, sun-filled traditional style apartment has, a
             fantastic full-length balcony providing partial ocean views, and
             large, fully operable windows to let in the air and ocean breezes.
@@ -25,11 +25,11 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="relative ">
-        <div className="z-50 flex md:flex-row mt-20 relative sm:flex-col-reverse z-40 ">
+        <div className=" flex md:flex-row mt-20 relative sm:flex-col-reverse ">
           <div className="basis-4/6">
             <img
               src={require("../pictures/GF3.jpg")}
-              className=" -top-30 relative z-40 "
+              className=" -top-30 relative  "
             />
           </div>
           <div className="basis-3/6 flex p-20 justify-center items-center text-xl">
@@ -133,13 +133,15 @@ const GroundFloor = () => {
             className="absolute -top-[200px] object-cover"
           />
         </div>
-        <div className="basis-2/3 p-20 max-w-[400px]">
-          Each of the two bedrooms feature a comfortable king size bed, wide
-          closet space and a private, ensuite bathroom. This is bedroom #1.
+        <div className="basis-2/3 relative p-20 max-w-[400px]">
+          <p className="absolute -top-[100px]">
+            Each of the two bedrooms feature a comfortable king size bed, wide
+            closet space and a private, ensuite bathroom. This is bedroom #1.
+          </p>
         </div>
       </div>
       <div className="flex flex-row">
-        <div className="basis-1/2 pl-[200px] pt-0">
+        <div className="basis-1/2 pl-[200px] pt-0 pr-4">
           The bedrooms have ceiling fans and fully operable windows to keep you
           cool while you sleep. Each bedroom has a door providing direct access
           to the balcony, and views of the bay as well. This is bedroom #2.
@@ -201,14 +203,14 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="w-[100%] back-ground-floor h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[600px] bg-white p-10">
+        <div className="w-[600px] text-white p-10">
           Enjoy the view of Puerto Vallarta's Centro zone under beautifully
           brilliant blue skies from the comfort of the fully covered balcony -
           our friendly mountainside neighbourhood sits at your feet, waiting to
           be explored at your leisure.
         </div>
         <a href="/contact">
-          <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
+          <button className="tracking-widest bg-six text-white mt-10 pt-4 pb-4 pl-10 pr-10">
             GET IN TOUCH
           </button>
         </a>
