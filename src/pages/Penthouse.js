@@ -171,7 +171,7 @@ const Penthouse = () => {
           elegant retreat in the sunny blue skies.
         </div>
         <a href="/contact">
-          <button className="tracking-widest bg-white mt-10 pt-4 pb-4 pl-10 pr-10">
+          <button className="tracking-widest bg-six text-white mt-10 pt-4 pb-4 pl-10 pr-10">
             GET IN TOUCH
           </button>
         </a>
