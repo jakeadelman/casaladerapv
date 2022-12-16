@@ -6,7 +6,7 @@ const Penthouse = () => {
 
       <div className="bg-penthouse block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
-          <div className=" text-5xl bg-white text-six  p-4 pr-10 pl-10">
+          <div className=" text-5xl text-white font-medium  p-4 pr-10 pl-10">
             Penthouse
           </div>
         </div>
@@ -25,10 +25,10 @@ const Penthouse = () => {
         <div className="basis-1/3 pl-[200px] relative">
           <img
             src={require("../pictures/PH3.jpg")}
-            className="absolute -top-[400px] h-[700px] object-cover"
+            className="absolute -top-[400px] h-[600px] object-cover"
           />
         </div>
-        <div className="basis-1/3 pl-[100px]">
+        <div className="basis-2/3 pl-[200px] pr-[250px]">
           This is a very large, bright penthouse - more that 2,000 square feet –
           with plenty of indoor/outdoor space offering both sun & shade.
         </div>
@@ -87,7 +87,7 @@ const Penthouse = () => {
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/PH8.jpg")}
-            className="absolute -top-[200px] w-[80%]"
+            className="absolute -top-[100px] w-[80%]"
           />
         </div>
       </div>
@@ -103,17 +103,18 @@ const Penthouse = () => {
         </div>
       </div>
       <div className="flex flex-row relative">
-        <div className="basis-1/4 absolute -top-[300px] w-[400px] p-20">
+        <div className="basis-1/4 absolute  -top-[200px] w-[600px]">
+          <img src={require("../pictures/PH11.jpg")} className="" />
+        </div>
+        <div className="basis-1/4 absolute left-[600px] w-[400px] p-20">
           The open framed wall that separates the kitchen from the dining area
           allows light and cooling breezes in, meaning cooking never gets
           uncomfortable.
         </div>
-        <div className="basis-1/4 absolute left-[400px] -top-[400px] w-[600px]">
-          <img src={require("../pictures/PH11.jpg")} className="" />
-        </div>
+
         <div className="basis-2/4"></div>
       </div>
-      <div className="flex flex-row pt-[350px]">
+      <div className="flex flex-row pt-[450px]">
         <div className="basis-1/3">
           <img src={require("../pictures/PH12.jpg")} className="" />
         </div>
@@ -164,7 +165,7 @@ const Penthouse = () => {
         <div className="basis-1/5"></div>
       </div>
       <div className="w-[100%] back-penthouse h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[600px] bg-white p-10">
+        <div className="w-[600px] text-white p-10">
           This is a fabulous location offering easy access to everything Puerto
           Vallarta has to offer, while simultaneously providing a private,
           elegant retreat in the sunny blue skies.

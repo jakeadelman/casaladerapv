@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="bg-contact block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
           <div className=" text-5xl text-white ">
-            <div className="w-[300px] p-2  m-auto">Let's Talk</div>
+            <div className="w-[300px] p-2 font-medium m-auto">Let's Talk</div>
           </div>
           <div className="w-[600px] m-auto mt-8 p-4">
             Get in touch with us today to schedule and reserve your stay, or if

@@ -215,7 +215,7 @@ nav span:hover:after {
   background-position: center;
 }
 .bg-penthouse {
-  background-image: url('./pictures/PH1.jpg');
+  background-image: url('./pictures/ph-main.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -236,7 +236,7 @@ nav span:hover:after {
 }
 
 .back-penthouse {
-  background-image: url('./pictures/PH18.jpg');
+  background-image: url('./pictures/ph-18-new.jpeg');
   background-size: cover;
 }
 
