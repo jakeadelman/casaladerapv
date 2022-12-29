@@ -11,7 +11,7 @@ const Penthouse = () => {
           </div>
         </div>
       </div>
-      <div className="flex sm:flex-col lg:flex-row mt-[100px]">
+      <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-3/5 flex justify-center lg:mb-[400px] items-center p-20">
           Relax in modern Mexican style surrounded by friendly neighbours, while
           you soak in the endless ocean views, brilliant blue skies &
@@ -121,7 +121,7 @@ const Penthouse = () => {
         <div className="basis-1/3 p-20">
           <img src={require("../pictures/PH13.jpg")} className="" />
         </div>
-        <div className="basis-1/3 mt-[100px] sm:m-20">
+        <div className="basis-1/3 mt-[100px] sm:mb-[0px] sm:m-20">
           The ensuite bathroom walls, bathtub and shower feature antique Mexican
           glass tiles, accented with clay bricks. The granite topped counter
           features a locally-produced, colourfully hand-painted ceramic sink.
