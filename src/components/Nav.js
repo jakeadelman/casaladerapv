@@ -52,7 +52,7 @@ const Nav = () => {
         </ul>
       </nav>
       <nav className="small-navigation">
-        <div className="pt-[24px] pr-14">
+        <div className="pt-[20px] pr-14">
           <img
             src={require("../pictures/hamburger2.png")}
             onClick={navClicked}
