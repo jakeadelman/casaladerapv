@@ -7,19 +7,21 @@ const Reviews = () => {
       <div className="bg-reviews block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
           <div className=" text-5xl text-six flex justify-center">
-            <div className=" bg-white w-[250px] p-4 pr-10 pl-10 ">Reviews</div>
+            <div className=" text-white font-medium w-[250px] p-4 pr-10 pl-10 ">
+              Reviews
+            </div>
           </div>
-          <div className="bg-white p-10 mt-[50px] w-[600px]">
+          <div className="text-white p-10 mt-[50px] w-[600px]">
             Here’s what some of our past guests have had to say about their stay
             at Casa Ladera. All reviews originate from on our Airbnb listings.
           </div>
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/6">
           <img src={require("../pictures/RP2.jpg")} className="p-10 pl-20" />
         </div>
-        <div className="basis-3/6 p-10 flex flex-col justify-center items-end">
+        <div className="basis-3/6 sm:pb-[50px] lg:pb-0 p-10 flex flex-col justify-center items-end">
           The previous reviews are true. The stairs are hard especially if doing
           them multiple times a day, however the view at the top is worth it.
           The view is magnificent. You get to enjoy incredible sunsets and
@@ -30,8 +32,8 @@ const Reviews = () => {
         </div>
         <div className="basis-1/6"></div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-4/6 p-10 flex flex-col justify-center items-end mt-[10px] pl-[150px]">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
+        <div className="basis-4/6 p-10 flex flex-col justify-center items-end  mt-[10px] lg:pl-[150px]">
           We loved staying at Casa Ladera. All the reviews are spot on. The unit
           is beautiful, very clean and spacious, well appointed and has a
           magnificent view of the bay. The kitchen was well stocked. We spent
@@ -46,15 +48,15 @@ const Reviews = () => {
         <div className="basis-2/6 relative">
           <img
             src={require("../pictures/RP3.jpg")}
-            className="absolute  -top-[100px]"
+            className="lg:absolute  -top-[100px]"
           />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-3/6">
           <img src={require("../pictures/RP4.jpg")} />
         </div>
-        <div className="basis-3/6 p-10 flex flex-col justify-center items-end mt-[50px] pr-[100px]">
+        <div className="basis-3/6 p-10 flex flex-col justify-center items-end mt-[50px] lg:pr-[100px]">
           We had such a wonderful time staying in this unit! All the previous
           reviews are spot on - the living space is amazing with its high
           ceilings, tall windows, and ability to make it very open air; the
@@ -67,9 +69,9 @@ const Reviews = () => {
           <span className="p-10">Gina – November 2021</span>
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/6"></div>
-        <div className="basis-3/6 flex flex-col justify-center items-end pr-10">
+        <div className="basis-3/6 sm:p-10 lg:p-0 flex flex-col justify-center items-end pr-10">
           This home is amazing from the views to the location! Sunsets are to
           die for and neighbors are so nice we had such a great time and our
           contact Omar was beyond helpful couldn’t thank him enough for
@@ -81,12 +83,12 @@ const Reviews = () => {
           <img src={require("../pictures/RP5.jpg")} />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/6"></div>
         <div className="basis-2/6 relative h-[450px]">
           <img
             src={require("../pictures/RP6.jpg")}
-            className="absolute -top-[100px]"
+            className="lg:absolute -top-[100px]"
           />
         </div>
         <div className="basis-3/6 p-10 flex flex-col items-end justify-end">
@@ -105,8 +107,8 @@ const Reviews = () => {
           <span>Rob & Shelley – February 2022</span>
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
-        <div className="basis-1/2 p-20 flex flex-col justify-center items-end">
+      <div className="flex sm:flex-col-reverse lg:flex-row mt-[100px]">
+        <div className="basis-1/2 sm:p-10 lg:p-20 flex flex-col justify-center items-end">
           This is my second time staying in this home, and it is even better
           than I recalled. There simply is no way pictures can do justice to the
           views. Everywhere within the home, stunning vistas of the Bay are laid

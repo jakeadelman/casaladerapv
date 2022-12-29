@@ -226,7 +226,7 @@ nav span:hover:after {
 }
 
 .back-ground-floor {
-  background-image: url('./pictures/GF18.jpg');
+  background-image: url('./pictures/gf-alternate.jpeg');
   background-size: cover;
 }
 
@@ -248,4 +248,21 @@ input::placeholder {
 textarea::placeholder {
   color: black;
   opacity: 1;
+}
+
+.large-navigation {
+  display: block;
+}
+
+.small-navigation {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .small-navigation {
+    display: block;
+  }
+  .large-navigation {
+    display: none;
+  }
 }

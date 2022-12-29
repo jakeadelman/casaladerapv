@@ -1,7 +1,7 @@
 const Section1 = () => {
   return (
-    <div className="flex flex-row mt-[100px]">
-      <div className="basis-1/2 flex flex-col items-center justify-center p-20 font-light text-xl">
+    <div className="flex sm:flex-col lg:flex-row mt-[100px] ">
+      <div className="sm:pb-[200px] lg:pb-0 lg:basis-1/2 flex flex-col items-center justify-center p-20 font-light text-xl">
         <p className="text-left ">
           This private house sits perched on the mountainside overlooking the
           Centro district, and is comprised of 3 individual units, one to a
@@ -28,7 +28,7 @@ const Section1 = () => {
           </p>
         </div>
       </div>
-      <div className="basis-1/2 flex justify-end backgimg"></div>
+      <div className="lg:basis-1/2 flex justify-end backgimg"></div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="flex flex-row mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
+    <div className="flex sm:flex-col lg:flex-row mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
       <div className="basis-3/5 flex flex-col  items-center justify-center p-20 text-xl z-20">
         <p className="text-left font-light">
           The top two floors each have a single bedroom, while the ground floor

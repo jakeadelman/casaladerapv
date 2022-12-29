@@ -1,8 +1,8 @@
 const Section4 = () => {
   return (
     <div className=" relative z-10 bg-seven">
-      <div className="flex flex-row  z-10">
-        <div className="basis-1/2 flex justify-end backgimg2"></div>
+      <div className="flex sm:flex-col lg:flex-row  z-10">
+        <div className="lg:basis-1/2 flex justify-end backgimg2"></div>
         <div className="basis-1/2 flex flex-col text-xl">
           <p className="text-left font-light text-xl p-20 pt-10 m-auto">
             Casa Ladera has fantastic access (5 - 10 minute walk straight down

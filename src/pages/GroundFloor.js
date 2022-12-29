@@ -7,13 +7,13 @@ const GroundFloor = () => {
 
       <div className="bg-ground block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
-          <div className=" text-5xl text-white font-semibold p-4 pr-10 pl-10">
+          <div className=" text-5xl text-white font-semibold mb-20 p-4 pr-10 pl-10">
             Ground Floor
           </div>
         </div>
       </div>
       <div className="relative">
-        <div className="flex md:flex-row md:pt-20 md:pb-20 md:-mb-[170px] sm:flex-col ">
+        <div className="flex lg:flex-row lg:pt-20 lg:pb-20 lg:-mb-[170px] sm:flex-col ">
           <div className="basis-2/3 flex p-20 justify-center items-center text-xl ">
             This spacious, sun-filled traditional style apartment has, a
             fantastic full-length balcony providing partial ocean views, and
@@ -25,11 +25,11 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="relative ">
-        <div className=" flex md:flex-row mt-20 relative sm:flex-col-reverse ">
+        <div className=" flex lg:flex-row lg:mt-20 relative sm:flex-col-reverse ">
           <div className="basis-4/6">
             <img
               src={require("../pictures/GF3.jpg")}
-              className=" -top-30 relative  "
+              className=" lg:-top-30 relative  "
             />
           </div>
           <div className="basis-3/6 flex p-20 justify-center items-center text-xl">
@@ -40,8 +40,8 @@ const GroundFloor = () => {
         </div>
       </div>
       <div>
-        <div className="flex md:flex-row sm:flex-col md:mt-20  md:-mb-[150px] relative pb-20 z-50 ">
-          <div className="basis-7/12 flex pb-20 pl-20 pr-20 justify-center md:items-start lg:items-center text-xl">
+        <div className="flex lg:flex-row sm:flex-col lg:mt-20  lg:-mb-[150px] relative lg:pb-20 ">
+          <div className="basis-7/12 flex sm:p-20 lg:pb-20 lg:pl-20 lg:pr-20 lg:pt-0 justify-center md:items-start lg:items-center text-xl">
             In the morning the balcony provides cooling shade, but is bathed in
             sun all afternoon and evening.
           </div>
@@ -50,11 +50,11 @@ const GroundFloor = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:flex-row sm:flex-col  md:mt-20 relative">
+      <div className="flex sm:flex-col-reverse lg:flex-row  lg:mt-20 relative">
         <div className="basis-3/6 relative h-[900px]">
           <img
             src={require("../pictures/GF5.jpg")}
-            className="absolute -top-20 ml-10 h-[900px] w-auto object-cover"
+            className="lg:absolute -top-20 lg:ml-10 lg:h-[900px] w-auto object-cover"
           />
         </div>
         <div className="basis-3/6 flex p-20 justify-center items-center text-xl">
@@ -63,7 +63,7 @@ const GroundFloor = () => {
           operable windows to let in the air and ocean breezes
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className=" basis-2/3 p-20 flex flex-row justify-center items-center">
           The living room features ten foot ceilings, two traditional built-in
           couches and a marble-topped coffee table. And the brightly coloured
@@ -73,11 +73,11 @@ const GroundFloor = () => {
         <div className="basis-1/3 relative h-[600px]">
           <img
             src={require("../pictures/GF6.jpg")}
-            className="absolute -top-[200px] right-20 h-[800px]"
+            className="lg:absolute lg:-top-[200px] lg:right-20 lg:h-[800px]"
           />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/2">
           <img src={require("../pictures/GF7.jpg")} className="" />
         </div>
@@ -87,8 +87,8 @@ const GroundFloor = () => {
           charm.
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-3/4 flex justify-right items-center p-20 pr-0 pl-[400px]">
+      <div className="flex sm:flex-col lg:flex-row">
+        <div className="basis-3/4 flex justify-right items-center p-20 pr-0 lg:pl-[400px]">
           The well-appointed kitchen has all you'll need to enjoy preparing a
           delicious home cooked meal and it’s walls are a combination of natural
           local stone, brilliantly colourful stucco and ceramic tile, which also
@@ -97,51 +97,51 @@ const GroundFloor = () => {
         <div className="h-[400px] basis-1/4 relative">
           <img
             src={require("../pictures/GF8.jpg")}
-            className="absolute h-[600px] right-0 -top-[200px]"
+            className="lg:absolute lg:h-[600px] right-0 lg:-top-[200px]"
           />
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className=" basis-1/2 relative  h-[800px] max-w-[1000px]">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
+        <div className=" basis-1/2 relative  lg:h-[800px] lg:max-w-[1000px]">
           <img
             src={require("../pictures/GF9.jpg")}
-            className="absolute left-[170px] object-cover"
+            className="lg:absolute left-[170px] object-cover"
           />
         </div>
-        <div className="basis-1/2 flex jusitfy-center items-center pl-[220px] p-20">
+        <div className="basis-1/2 flex jusitfy-center items-center lg:pl-[220px] p-20">
           The windows over the dining table and in the kitchen deliver cool
           breezes, bright sunlight, and table-side views of sky and sea, and an
           overhead ceiling fan helps keep things cool and airy.
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-2/3 flex justify-center items-center pl-[200px] mb-[100px] pr-4">
+      <div className="flex sm:flex-col lg:flex-row">
+        <div className="basis-2/3 flex justify-center items-center lg:pl-[200px] sm:p-20 lg:p-0 lg:mb-[100px] lg:pr-4">
           The side living room window opens to provide a cross breeze and looks
           towards the famous Our Lady of Guadalupe church.
         </div>
         <div className="basis-1/3 relative h-[500px]">
           <img
             src={require("../pictures/GF10.jpg")}
-            className="absolute  object-cover"
+            className="lg:absolute  object-cover"
           />
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-1/3 relative h-[500px]">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
+        <div className="basis-1/3 relative lg:h-[500px]">
           <img
             src={require("../pictures/GF11.jpg")}
-            className="absolute -top-[200px] object-cover"
+            className="lg:absolute lg:-top-[200px] object-cover"
           />
         </div>
-        <div className="basis-2/3 relative p-20 max-w-[400px]">
-          <p className="absolute -top-[100px]">
+        <div className="basis-2/3 relative p-20 lg:max-w-[400px]">
+          <p className="lg:absolute lg:-top-[100px]">
             Each of the two bedrooms feature a comfortable king size bed, wide
             closet space and a private, ensuite bathroom. This is bedroom #1.
           </p>
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-1/2 pl-[200px] pt-0 pr-4">
+      <div className="flex sm:flex-col lg:flex-row">
+        <div className="basis-1/2 lg:pl-[50px] lg:pr-[100px] 2xl:pl-[200px] sm:p-20 lg:p-0 pt-0 pr-4">
           The bedrooms have ceiling fans and fully operable windows to keep you
           cool while you sleep. Each bedroom has a door providing direct access
           to the balcony, and views of the bay as well. This is bedroom #2.
@@ -149,20 +149,20 @@ const GroundFloor = () => {
         <div className="basis-1/2 relative h-[500px] ">
           <img
             src={require("../pictures/GF12.jpg")}
-            className="absolute w-[600px] right-[100px] -top-[400px] object-cover"
+            className="lg:absolute lg:w-[600px] lg:right-[50px] lg:-top-[400px] object-cover"
           />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/2 h-[600px] relative">
           <img
             src={require("../pictures/GF13.jpg")}
-            className="absolute w-[500px] right-[100px] -top-[300px]  object-cover"
+            className="lg:absolute lg:w-[500px] lg:right-[100px] lg:-top-[300px] sm:mt-[100px] lg:mt-0 object-cover"
           />
         </div>
       </div>
-      <div className="flex flex-row h-[100px] relative absolute -top-[350px]">
-        <div className="basis-2/3 pb-20 pl-20 pr-20 mb-[100px] ">
+      <div className="flex sm:flex-col lg:flex-row lg:h-[100px] relative lg:-top-[350px]">
+        <div className="basis-2/3 sm:pt-20 lg:pt-0 pb-20 pl-20 pr-20 lg:mb-[100px] ">
           Both ensuite bathroom’s walls, bathtub and shower all feature antique
           Mexican glass tiles. The granite-topped bathroom counters each feature
           locally-produced, hand painted, colourful ceramic sinks.
@@ -170,15 +170,15 @@ const GroundFloor = () => {
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/GF14.jpg")}
-            className="absolute -top-[100px]   object-cover"
+            className="lg:absolute -top-[100px]   object-cover"
           />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/GF15.jpg")}
-            className="absolute -top-[150px] h-[700px] w-[700px] object-cover"
+            className="lg:absolute -top-[150px] h-[700px] lg:w-[700px] m-auto object-cover"
           />
         </div>
         <div className="basis-1/3 p-20 flex justify-center items-center h-[500px]">
@@ -189,12 +189,12 @@ const GroundFloor = () => {
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/GF16.jpg")}
-            className="absolute -bottom-[250px]  h-[400px] w-[300px] object-cover"
+            className="lg:absolute -bottom-[250px]  h-[400px] lg:w-[300px] sm:m-auto sm:pt-20 object-cover"
           />
         </div>
       </div>
-      <div className="flex flex-row pt-[300px] h-[900px]">
-        <div className="basis-1/2 relative pl-20 ">
+      <div className="flex sm:flex-col lg:flex-row sm:pt-[100px] lg:pt-[300px] h-[900px]">
+        <div className="basis-1/2 relative lg:pl-20 ">
           <img src={require("../pictures/GF17.jpg")} className=" w-[100%]" />
         </div>
         <div className="basis-1/2 p-20 flex justify-center items-center">
@@ -203,7 +203,7 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="w-[100%] back-ground-floor h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[600px] text-white p-10">
+        <div className="w-[1200px] text-white p-10">
           Enjoy the view of Puerto Vallarta's Centro zone under beautifully
           brilliant blue skies from the comfort of the fully covered balcony -
           our friendly mountainside neighbourhood sits at your feet, waiting to

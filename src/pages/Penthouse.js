@@ -11,8 +11,8 @@ const Penthouse = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
-        <div className="basis-3/5 flex justify-center mb-[400px] items-center p-20">
+      <div className="flex sm:flex-col lg:flex-row mt-[100px]">
+        <div className="basis-3/5 flex justify-center lg:mb-[400px] items-center p-20">
           Relax in modern Mexican style surrounded by friendly neighbours, while
           you soak in the endless ocean views, brilliant blue skies &
           breathtaking sunsets.
@@ -21,19 +21,19 @@ const Penthouse = () => {
           <img src={require("../pictures/PH2.jpg")} className="" />
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
-        <div className="basis-1/3 pl-[200px] relative">
+      <div className="flex sm:flex-col-reverse lg:flex-row lg:mt-[100px]">
+        <div className="basis-1/3 lg:pl-[200px] sm:block lg:relative">
           <img
             src={require("../pictures/PH3.jpg")}
-            className="absolute -top-[400px] h-[600px] object-cover"
+            className="lg:absolute lg:-top-[400px] lg:h-[600px] object-cover"
           />
         </div>
-        <div className="basis-2/3 pl-[200px] pr-[250px]">
+        <div className="basis-2/3 lg:pl-[200px] lg:pr-[250px] sm:m-[100px]">
           This is a very large, bright penthouse - more that 2,000 square feet –
           with plenty of indoor/outdoor space offering both sun & shade.
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
+      <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-2/4 flex justify-center items-center p-10 pl-20">
           The unit has fully opening glass floor-to-ceiling doors on two sides
           to maximize light and ventilation and combine the elegant indoor space
@@ -43,7 +43,7 @@ const Penthouse = () => {
           <img src={require("../pictures/PH4.jpg")} className="" />
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
+      <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-2/5">
           <img src={require("../pictures/PH5.jpg")} className="" />
         </div>
@@ -52,10 +52,10 @@ const Penthouse = () => {
           patio literally becomes an extension of the living space.
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
-        <div className="basis-3/5 flex justify-center items-center p-10 pl-20">
+      <div className="flex sm:flex-col-reverse lg:flex-row lg:mt-[100px] ">
+        <div className="basis-3/5 flex justify-center items-center p-10 pl-20 sm:mb-0 sm:pt-20 lg:pt-0 sm:pb-0">
           Above the patio sits a separate, ultra-private rooftop Skydeck so you
-          can relax in the sky with an impressive 270o view of the Bay and
+          can relax in the sky with an impressive 2700 view of the Bay and
           surroundings – it’s perfect for afternoon reading, lounging or a
           well-earned siesta.
         </div>
@@ -63,9 +63,9 @@ const Penthouse = () => {
           <img src={require("../pictures/PH6.jpg")} className="" />
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
+      <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-3/5">
-          <img src={require("../pictures/PH7.jpg")} className="pl-[100px]" />
+          <img src={require("../pictures/PH7.jpg")} className="lg:pl-[100px]" />
         </div>
         <div className="basis-2/5 flex justify-center items-center p-10 pl-20">
           Enjoy the local ambiance and relax away from the hustle and bustle of
@@ -74,12 +74,12 @@ const Penthouse = () => {
           course, the Malecon.
         </div>
       </div>
-      <div className="flex flex-row mt-[100px]">
+      <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-1/3">
-          <img src={require("../pictures/PH9.jpg")} className="m-10" />
+          <img src={require("../pictures/PH9.jpg")} className="lg:m-10" />
         </div>
         <div className="basis-1/3 flex justify-center items-center pl-[100px] mb-[100px] relative">
-          <div className="absolute w-[150%] left-20">
+          <div className="lg:absolute lg:w-[150%] lg:left-20 sm:mt-[50px]">
             The living room features two built-in couches and a huge, triangular
             marble topped coffee table.
           </div>
@@ -87,13 +87,13 @@ const Penthouse = () => {
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/PH8.jpg")}
-            className="absolute -top-[100px] w-[80%]"
+            className="lg:absolute lg:-top-[100px] lg:w-[80%]"
           />
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/4"></div>
-        <div className="basis-2/4 pr-10 mt-[100px]">
+        <div className="basis-2/4 lg:pr-10 lg:mt-[100px] sm:m-20">
           The kitchen has all you'll need, from appliances to flatware, to enjoy
           preparing and eating a delicious home cooked meal when you just don't
           feel like venturing out.
@@ -102,34 +102,37 @@ const Penthouse = () => {
           <img src={require("../pictures/PH10.jpg")} className="" />
         </div>
       </div>
-      <div className="flex flex-row relative">
-        <div className="basis-1/4 absolute  -top-[200px] w-[600px]">
+      <div className="flex sm:flex-col-reverse lg:flex-row relative">
+        <div className="basis-1/4 lg:absolute  lg:-top-[200px] lg:w-[600px]">
           <img src={require("../pictures/PH11.jpg")} className="" />
         </div>
-        <div className="basis-1/4 absolute left-[600px] w-[400px] p-20">
+        <div className="basis-1/4 lg:absolute lg:left-[600px] lg:w-[400px] p-20">
           The open framed wall that separates the kitchen from the dining area
           allows light and cooling breezes in, meaning cooking never gets
           uncomfortable.
         </div>
 
-        <div className="basis-2/4"></div>
+        <div className="basis-2/4 sm:h-0"></div>
       </div>
-      <div className="flex flex-row pt-[450px]">
+      <div className="flex sm:flex-col-reverse lg:flex-row lg:pt-[450px]">
         <div className="basis-1/3">
           <img src={require("../pictures/PH12.jpg")} className="" />
         </div>
         <div className="basis-1/3 p-20">
           <img src={require("../pictures/PH13.jpg")} className="" />
         </div>
-        <div className="basis-1/3 mt-[100px]">
+        <div className="basis-1/3 mt-[100px] sm:m-20">
           The ensuite bathroom walls, bathtub and shower feature antique Mexican
           glass tiles, accented with clay bricks. The granite topped counter
           features a locally-produced, colourfully hand-painted ceramic sink.
         </div>
       </div>
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/3">
-          <img src={require("../pictures/PH15.jpg")} className="mt-[200px]" />
+          <img
+            src={require("../pictures/PH15.jpg")}
+            className="lg:mt-[200px] sm:mt-[100px]"
+          />
         </div>
         <div className="basis-1/3 p-20">
           After a long day in the sun, you'll sleep like a baby in the large,
@@ -141,21 +144,21 @@ const Penthouse = () => {
         <div className="basis-1/3 relative">
           <img
             src={require("../pictures/PH14.jpg")}
-            className="absolute -top-[200px]"
+            className="lg:absolute lg:-top-[200px]"
           />
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-1/2 flex justify-center items-center pl-[200px]">
+      <div className="flex sm:flex-col lg:flex-row">
+        <div className="basis-1/2 flex justify-center items-center lg:pl-[200px] sm:m-20">
           Walk directly out of the bedroom onto the second patio and you'll see
           the main patio with the rooftop Skydeck up the circular staircase.
         </div>
         <div className="basis-1/2">
-          <img src={require("../pictures/PH16.jpg")} className="p-20" />
+          <img src={require("../pictures/PH16.jpg")} className="lg:p-20" />
         </div>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-2/5">
+      <div className="flex sm:flex-col lg:flex-row">
+        <div className="basis-2/5 sm:mt-[100px]">
           <img src={require("../pictures/PH17.jpg")} />
         </div>
         <div className="basis-2/5 p-20 flex justify-center items-center">
@@ -165,7 +168,7 @@ const Penthouse = () => {
         <div className="basis-1/5"></div>
       </div>
       <div className="w-[100%] back-penthouse h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[600px] text-white p-10">
+        <div className="w-[1000px] text-white p-10">
           This is a fabulous location offering easy access to everything Puerto
           Vallarta has to offer, while simultaneously providing a private,
           elegant retreat in the sunny blue skies.
