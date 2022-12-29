@@ -134,11 +134,10 @@ const MainFloor = () => {
             className="lg:p-20 lg:pr-10"
           />
         </div>
-        <div className="basis-2/6 flex jusify-center items-center sm:p-20 lg:pb-[150px]">
+        <div className="basis-3/6 flex jusify-center items-center sm:p-20 lg:pb-[150px]">
           The kitchen, breakfast room, bedroom and bathroom sit three steps up
           from the spacious living/dining room and patio around the pool.
         </div>
-        <div className="basis-2/6"></div>
       </div>
       <div className="flex  sm:flex-col-reverse lg:flex-row">
         <div className="basis-2/12"></div>
@@ -150,7 +149,7 @@ const MainFloor = () => {
         <div className="basis-4/12 relative">
           <img
             src={require("../pictures/MP13.jpg")}
-            className="lg:absolute lg:-top-[200px]"
+            className="lg:absolute lg:-top-[120px]"
           />
         </div>
         <div className="basis-2/12"></div>
@@ -192,7 +191,7 @@ const MainFloor = () => {
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/2"></div>
         <div className="basis-1/2 relative">
-          <div className="lg:absolute lg:-top-[130px] sm:p-20 lg:p-0">
+          <div className="lg:absolute lg:-top-[130px] sm:p-20 lg:p-0 xl:-top-[200px] ">
             The ensuite bathroom walls, bathtub and shower all feature antique
             Mexican glass tiles, accented with Mexican clay brick transom
             windows providing cooling cross-breezes.

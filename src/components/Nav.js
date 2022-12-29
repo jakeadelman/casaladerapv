@@ -52,11 +52,11 @@ const Nav = () => {
         </ul>
       </nav>
       <nav className="small-navigation">
-        <div className="pt-[20px] pr-14">
+        <div className="pt-[24px] pr-14">
           <img
             src={require("../pictures/hamburger2.png")}
             onClick={navClicked}
-            className="w-14 cursor-pointer"
+            className="w-12 cursor-pointer"
           />
         </div>
       </nav>
