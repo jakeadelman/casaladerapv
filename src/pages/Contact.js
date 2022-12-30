@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="p-20 flex flex-row justify-center">
-        <div className="flex flex-col w-[500px]">
+        <div className="flex flex-col w-[500px] text-black">
           <input
             className="border-2 p-2 border-gray tracking-widest "
             placeholder="FULL NAME"
@@ -37,6 +37,12 @@ const Contact = () => {
           <input
             className="border-2 p-2 border-gray mt-10"
             placeholder="TELEPHONE"
+            type="text"
+            name="name"
+          />
+          <input
+            className="border-2 p-2 border-gray mt-10"
+            placeholder="VILLA YOU ARE INTERESTED IN"
             type="text"
             name="name"
           />
