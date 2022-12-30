@@ -9,12 +9,6 @@ const Section3 = () => {
               <p className="mt-10 text-2xl pb-10  text-left font-light">
                 Penthouse Villa
               </p>
-              <p className="text-left font-light">
-                Live on top of the world with sea to sky views and very large
-                outdoor lounge area including a palapa with lounge chairs even
-                higher. One King size bedroom with en-suite. Fully equipped
-                kitchen.
-              </p>
             </a>
           </div>
           <div className="basis-1/3 p-2 card z-20">
@@ -22,12 +16,6 @@ const Section3 = () => {
               <img src={require("../../pictures/HP7.jpg")} className="" />
               <p className="mt-10 text-2xl pb-10 font-light text-left">
                 Main Floor Pool Villa
-              </p>
-              <p className="text-left font-light">
-                Our most sophisticated Villa with infinity plunge pool. Floor to
-                ceiling glass walls that open completely for living harmoniously
-                indoors and outdoors. One king size bedroom with en-suite. Fully
-                equipped kitchen.
               </p>
             </a>
           </div>
@@ -37,11 +25,6 @@ const Section3 = () => {
               <img src={require("../../pictures/HP8-2.jpg")} className="" />
               <p className="mt-10 text-2xl pb-10 text-left font-light">
                 Ground Floor Villa
-              </p>
-              <p className="text-left font-light">
-                Our Mexican inspired 2 bedroom Villa with large patio. 2 full
-                king size bedrooms both with en-suites. View still great! Fully
-                equipped kitchen. Andale!
               </p>
             </a>
           </div>
