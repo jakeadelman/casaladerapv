@@ -46,6 +46,12 @@ const Contact = () => {
             type="text"
             name="name"
           />
+          <input
+            className="border-2 p-2 border-gray mt-10"
+            placeholder="DATES"
+            type="text"
+            name="name"
+          />
           <textarea
             className="border-2 p-2 border-gray mt-10 h-[300px]"
             placeholder="MESSAGE"
