@@ -169,7 +169,7 @@ const Penthouse = () => {
       </div>
       <div className="w-[100%] back-penthouse h-[1000px] mt-[100px] flex justify-center items-center flex-col">
         <div className="w-[1000px] text-white p-10">
-          This is a fabulous location offering easy access to everything Puerto
+          This is a fabulous Villa offering easy access to everything Puerto
           Vallarta has to offer, while simultaneously providing a private,
           elegant retreat in the sunny blue skies.
         </div>
