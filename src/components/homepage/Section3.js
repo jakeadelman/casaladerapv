@@ -1,3 +1,7 @@
+import HP6 from "../../pictures/HP6-min.jpg";
+import HP7 from "../../pictures/HP7-min.jpg";
+import HP8 from "../../pictures/HP8-min.jpg";
+
 const Section3 = () => {
   return (
     <div className="relative pt-[100px]">
@@ -5,7 +9,7 @@ const Section3 = () => {
         <div className="flex sm:flex-col lg:flex-row p-5 pr-20 pl-20 z-20">
           <div className="basis-1/3 p-2 card z-20">
             <a href="/penthouse">
-              <img src={require("../../pictures/HP6.jpg")} className="" />
+              <img src={HP6} className="" />
               <p className="mt-10 text-2xl pb-10  text-left font-light">
                 Penthouse Villa
               </p>
@@ -19,7 +23,7 @@ const Section3 = () => {
           </div>
           <div className="basis-1/3 p-2 card z-20">
             <a href="/main-floor">
-              <img src={require("../../pictures/HP7.jpg")} className="" />
+              <img src={HP7} className="" />
               <p className="mt-10 text-2xl pb-10 font-light text-left">
                 Main Floor Pool Villa
               </p>
@@ -34,7 +38,7 @@ const Section3 = () => {
 
           <div className="basis-1/3 p-2 card z-20">
             <a href="/ground-floor">
-              <img src={require("../../pictures/HP8-2.jpg")} className="" />
+              <img src={HP8} className="" />
               <p className="mt-10 text-2xl pb-10 text-left font-light">
                 2 Bedroom Villa
               </p>

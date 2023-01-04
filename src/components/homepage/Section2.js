@@ -1,3 +1,7 @@
+import HP3 from "../../pictures/HP3-min.jpg";
+import HP4 from "../../pictures/HP4-min.jpg";
+import HP5 from "../../pictures/HP5-min.jpg";
+
 const Section2 = () => {
   return (
     <div className="flex sm:flex-col lg:flex-row mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
@@ -13,10 +17,7 @@ const Section2 = () => {
         <div className="flex flex-row">
           <a href="/penthouse">
             <div class="container2 cursor-pointer">
-              <img
-                src={require("../../pictures/HP3.jpg")}
-                className="image w-[400px] md-img"
-              />
+              <img src={HP3} className="image w-[400px] md-img" />
               <div class="middle">
                 <div class="text-2xl font-light">View More</div>
               </div>
@@ -32,10 +33,7 @@ const Section2 = () => {
           </p>
           <a href="/main-floor">
             <div class="container2 cursor-pointer">
-              <img
-                src={require("../../pictures/HP4.jpg")}
-                className="image w-[500px] md-img"
-              />
+              <img src={HP4} className="image w-[500px] md-img" />
               <div class="middle">
                 <div class="text-2xl font-light ">View More</div>
               </div>
@@ -45,10 +43,7 @@ const Section2 = () => {
         <div className="flex flex-row">
           <a href="/ground-floor">
             <div class="container2 cursor-pointer">
-              <img
-                src={require("../../pictures/HP5.jpg")}
-                className="image w-[400px] md-img"
-              />
+              <img src={HP5} className="image w-[400px] md-img" />
               <div class="middle">
                 <div class="text-2xl font-light ">View More</div>
               </div>
