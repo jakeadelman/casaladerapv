@@ -33,9 +33,9 @@ const Nav = () => {
               <span>Main Floor</span>
             </li>
           </a>
-          <a href="/ground-floor">
+          <a href="/2-bedroom">
             <li className="mr-10 hover:cursor-pointer">
-              <span>Ground Floor</span>
+              <span>2 Bedroom</span>
             </li>
           </a>
 
@@ -78,8 +78,8 @@ const Nav = () => {
               <a href="/main-floor">
                 <li className="mb-2 cursor-pointer">Main Floor</li>
               </a>
-              <a href="/ground-floor">
-                <li className="mb-2 cursor-pointer">Ground Floor</li>
+              <a href="/2-bedroom">
+                <li className="mb-2 cursor-pointer">2 Bedroom</li>
               </a>
               <a href="/reviews">
                 <li className="mb-2 cursor-pointer">Reviews</li>

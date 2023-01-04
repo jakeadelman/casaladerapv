@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Homepage />}></Route>
-          <Route exact path="/ground-floor" element={<GroundFloor />}></Route>
+          <Route exact path="/2-bedroom" element={<GroundFloor />}></Route>
           <Route exact path="/penthouse" element={<Penthouse />}></Route>
           <Route exact path="/main-floor" element={<MainFloor />}></Route>
           <Route exact path="/reviews" element={<Reviews />}></Route>

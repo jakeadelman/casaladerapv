@@ -8,7 +8,7 @@ const GroundFloor = () => {
       <div className="bg-ground block h-[800px] flex justify-center items-center w-full block pt-[150px] overflow-hidden relative">
         <div className="mt-200px m-auto text-center">
           <div className=" text-5xl text-white font-semibold mb-20 p-4 pr-10 pl-10">
-            Ground Floor
+            2 Bedroom
           </div>
         </div>
       </div>
