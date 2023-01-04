@@ -4,7 +4,7 @@ import HP5 from "../../pictures/HP5-min.jpg";
 
 const Section2 = () => {
   return (
-    <div className="flex sm:flex-col lg:flex-row mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
+    <div className="flex sm:flex-col lg:flex-row lg:mt-20  bg-seven  p-[50px] pb-[50px] pt-[50px] relative">
       <div className="basis-3/5 flex flex-col  items-center justify-center sm:p-10 lg:p-20 text-xl z-20">
         <p className="text-left font-light">
           The top two floors each have a single bedroom, while the ground floor

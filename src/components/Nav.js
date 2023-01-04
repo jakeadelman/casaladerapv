@@ -13,7 +13,7 @@ const Nav = () => {
       <a href="/">
         <img
           src={require("../pictures/logo.png")}
-          className="ml-[100px] mt-[10px] h-[80px]"
+          className="sm:ml-[40px] lg:ml-[100px] mt-[10px] h-[80px]"
         />
       </a>
       <nav className="ml-auto m-auto uppercase tracking-wider text-six text-lg  font-medium mr-10 large-navigation">

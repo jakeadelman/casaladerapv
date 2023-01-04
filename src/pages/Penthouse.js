@@ -95,7 +95,7 @@ const Penthouse = () => {
         <div className="basis-1/3">
           <img src={PH9} className="lg:m-10" />
         </div>
-        <div className="basis-1/3 flex justify-center items-center pl-[100px] mb-[100px] relative">
+        <div className="basis-1/3 flex justify-center items-center sm:p-20 lg:p-0 lg:pl-[100px] mb-[100px] relative">
           <div className="lg:absolute lg:w-[150%] lg:left-20 sm:mt-[50px]">
             The living room features two built-in couches and a huge, triangular
             marble topped coffee table.
@@ -175,8 +175,8 @@ const Penthouse = () => {
         </div>
         <div className="basis-1/5"></div>
       </div>
-      <div className="w-[100%] back-penthouse h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[1000px] text-white p-10">
+      <div className="w-[100%] back-penthouse h-[1000px] lg:mt-[100px] flex justify-center items-center flex-col">
+        <div className="sm:w-[350px] md:w-[700px] lg:w-[1000px] text-white p-10">
           This is a fabulous Villa offering easy access to everything Puerto
           Vallarta has to offer, while simultaneously providing a private,
           elegant retreat in the sunny blue skies.

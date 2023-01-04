@@ -207,7 +207,7 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="w-[100%] back-ground-floor h-[1000px] mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[1200px] text-white p-10">
+        <div className="sm:w-[350px] md:w-[700px] lg:w-[1000px] xl:w-[1200px] text-white p-10">
           Enjoy the view of Puerto Vallarta's Centro zone under beautifully
           brilliant blue skies from the comfort of the fully covered balcony -
           our friendly mountainside neighbourhood sits at your feet, waiting to

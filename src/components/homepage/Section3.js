@@ -31,7 +31,7 @@ const Section3 = () => {
                 Our most sophisticated Villa with infinity plunge pool. Floor to
                 ceiling glass walls that open completely for living harmoniously
                 indoors and outdoors. One king size bedroom with en-suite. Fully
-                equipped kitchen,
+                equipped kitchen.
               </p>
             </a>
           </div>
