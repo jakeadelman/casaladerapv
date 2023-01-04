@@ -1,4 +1,21 @@
 import Nav from "../components/Nav";
+import MP2 from "../pictures/MP2-min.jpg";
+import MP3 from "../pictures/MP3-min.jpg";
+import MP4 from "../pictures/MP4-min.jpg";
+import MP5 from "../pictures/MP5-min.jpg";
+import MP6 from "../pictures/MP6-min.jpg";
+import MP7 from "../pictures/MP7-min.jpg";
+import MP8 from "../pictures/MP8-min.jpg";
+import MP9 from "../pictures/MP9-min.jpg";
+import MP10 from "../pictures/MP10-min.jpg";
+import MP11 from "../pictures/MP11-min.jpg";
+import MP12 from "../pictures/MP12-min.jpg";
+import MP13 from "../pictures/MP13-min.jpg";
+import MP14 from "../pictures/Mp14-min.jpg";
+import MP15 from "../pictures/MP15-min.jpg";
+import MP16 from "../pictures/MP16-min.jpg";
+import MP17 from "../pictures/MP17-min.jpg";
+import MP18 from "../pictures/MP18-min.jpg";
 
 const MainFloor = () => {
   return (
@@ -14,7 +31,7 @@ const MainFloor = () => {
       </div>
       <div className="flex sm:flex-col-reverse  lg:flex-row mt-[100px]">
         <div className="basis-2/5 lg:p-20">
-          <img src={require("../pictures/MP2.jpg")} />
+          <img src={MP2} />
         </div>
         <div className="basis-3/5 sm:p-10 lg:p-0 flex justify-center items-center mb-[150px]">
           This sunny and spacious slice of heaven offers endless ocean views and
@@ -29,15 +46,12 @@ const MainFloor = () => {
           retract – it’s like living in the sky!
         </div>
         <div className="basis-2/5 relative">
-          <img
-            src={require("../pictures/MP3.jpg")}
-            className="lg:absolute -top-[200px]"
-          />
+          <img src={MP3} className="lg:absolute -top-[200px]" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row mt-[150px]">
         <div className="basis-1/3">
-          <img src={require("../pictures/MP4.jpg")} className="lg:w-[600px]" />
+          <img src={MP4} className="lg:w-[600px]" />
         </div>
         <div className="basis-1/3 p-4 sm:p-20 lg:pl-10 lg:pr-[150px] flex items-center pb-20">
           With the walls opened up,the large, modern indoor space is expanded by
@@ -45,10 +59,7 @@ const MainFloor = () => {
           infinity pool.
         </div>
         <div className="basis-1/3 relative">
-          <img
-            src={require("../pictures/MP5.jpg")}
-            className="lg:pr-20 lg:absolute right-20 top-20"
-          />
+          <img src={MP5} className="lg:pr-20 lg:absolute right-20 top-20" />
         </div>
       </div>
       <div className="p-20 lg:pt-[200px] lg:w-[60%]">
@@ -58,7 +69,7 @@ const MainFloor = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[200px]">
         <div className="basis-1/2 relative">
-          <img src={require("../pictures/MP6.jpg")} />
+          <img src={MP6} />
         </div>
         <div className="basis-1/2 p-20">
           The well-equipped kitchen allows for home cooking if you prefer a
@@ -72,15 +83,12 @@ const MainFloor = () => {
           and Banderas Bay beyond - it's breakfast with a view!
         </div>
         <div className="basis-2/5 relative">
-          <img
-            src={require("../pictures/MP7.jpg")}
-            className="lg:absolute lg:-top-[300px] lg:pl-20"
-          />
+          <img src={MP7} className="lg:absolute lg:-top-[300px] lg:pl-20" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/3">
-          <img src={require("../pictures/MP8.jpg")} className="lg:pl-20" />
+          <img src={MP8} className="lg:pl-20" />
         </div>
         <div className="basis-2/3 p-20 lg:mb-[200px]">
           The large dinner table seats six with ease,so you can enjoy a meal at
@@ -98,15 +106,12 @@ const MainFloor = () => {
           </div>
         </div>
         <div className="basis-1/3 relative">
-          <img
-            src={require("../pictures/MP9.jpg")}
-            className="lg:pr-20  lg:absolute lg:-top-[200px]"
-          />
+          <img src={MP9} className="lg:pr-20  lg:absolute lg:-top-[200px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[200px]">
         <div className="basis-1/6">
-          <img src={require("../pictures/MP10.jpg")} />
+          <img src={MP10} />
         </div>
         <div className="basis-2/6 p-20 flex items-center">
           The open concept living area boasts 2 seating areas and a dining
@@ -121,18 +126,12 @@ const MainFloor = () => {
           sinks into the Pacific every evening.
         </div>
         <div className="basis-3/6 relative">
-          <img
-            src={require("../pictures/MP11.jpg")}
-            className="lg:absolute lg:-top-[200px]"
-          />
+          <img src={MP11} className="lg:absolute lg:-top-[200px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/6">
-          <img
-            src={require("../pictures/MP12.jpg")}
-            className="lg:p-20 lg:pr-10"
-          />
+          <img src={MP12} className="lg:p-20 lg:pr-10" />
         </div>
         <div className="basis-3/6 flex jusify-center items-center sm:p-20 lg:pb-[150px]">
           The kitchen, breakfast room, bedroom and bathroom sit three steps up
@@ -147,19 +146,13 @@ const MainFloor = () => {
           mirror - and it all just improves already stunning views.
         </div>
         <div className="basis-4/12 relative">
-          <img
-            src={require("../pictures/MP13.jpg")}
-            className="lg:absolute lg:-top-[120px]"
-          />
+          <img src={MP13} className="lg:absolute lg:-top-[120px]" />
         </div>
         <div className="basis-2/12"></div>
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-1/4 relative">
-          <img
-            src={require("../pictures/MP15.jpg")}
-            className="lg:absolute lg:-bottom-[100px]"
-          />
+          <img src={MP15} className="lg:absolute lg:-bottom-[100px]" />
         </div>
         <div className="basis-2/4 relative h-[600px] flex items-center p-20">
           <div className="">
@@ -170,21 +163,15 @@ const MainFloor = () => {
           </div>
         </div>
         <div className="basis-1/4">
-          <img
-            src={require("../pictures/Mp14.jpg")}
-            className="lg:mt-[100px]"
-          />
+          <img src={MP14} className="lg:mt-[100px]" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row mt-[100px]">
         <div className="basis-3/6">
-          <img
-            src={require("../pictures/MP17.jpg")}
-            className="sm:pt-10 lg:p-[200px]"
-          />
+          <img src={MP17} className="sm:pt-10 lg:p-[200px]" />
         </div>
         <div className="basis-2/6">
-          <img src={require("../pictures/MP16.jpg")} />
+          <img src={MP16} />
         </div>
         <div className="basis-1/6"></div>
       </div>
@@ -205,7 +192,7 @@ const MainFloor = () => {
           you watch the sun slowly tumble into the sea every afternoon.
         </div>
         <div className="basis-1/2">
-          <img src={require("../pictures/MP18.jpg")} className="lg:p-10" />
+          <img src={MP18} className="lg:p-10" />
         </div>
       </div>
       <div className="w-[100%] back-main-floor h-[1000px] lg:mt-[100px] flex justify-center items-center flex-col">

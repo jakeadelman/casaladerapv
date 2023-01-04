@@ -1,6 +1,6 @@
 import HP6 from "../../pictures/HP6-min.jpg";
 import HP7 from "../../pictures/HP7-min.jpg";
-import HP8 from "../../pictures/HP8-min.jpg";
+import HP8 from "../../pictures/HP8-2-min.jpg";
 
 const Section3 = () => {
   return (

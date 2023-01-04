@@ -1,4 +1,20 @@
 import Nav from "../components/Nav";
+import GF2 from "../pictures/GF2-min.jpg";
+import GF3 from "../pictures/GF3-min.jpg";
+import GF4 from "../pictures/GF4-min.jpg";
+import GF5 from "../pictures/GF5-min.jpg";
+import GF6 from "../pictures/GF6-min.jpg";
+import GF7 from "../pictures/GF7-min.jpg";
+import GF8 from "../pictures/GF8-min.jpg";
+import GF9 from "../pictures/GF9-min.jpg";
+import GF10 from "../pictures/GF10-min.jpg";
+import GF11 from "../pictures/GF11-min.jpg";
+import GF12 from "../pictures/GF12-min.jpg";
+import GF13 from "../pictures/GF13-min.jpg";
+import GF14 from "../pictures/GF14-min.jpg";
+import GF15 from "../pictures/GF15-min.jpg";
+import GF16 from "../pictures/GF16-min.jpg";
+import GF17 from "../pictures/GF17-min.jpg";
 
 const GroundFloor = () => {
   return (
@@ -20,17 +36,14 @@ const GroundFloor = () => {
             large, fully operable windows to let in the air and ocean breezes.
           </div>
           <div className="basis-1/3 ">
-            <img src={require("../pictures/GF2.jpg")} className="" />
+            <img src={GF2} className="" />
           </div>
         </div>
       </div>
       <div className="relative ">
         <div className=" flex lg:flex-row lg:mt-20 relative sm:flex-col-reverse ">
           <div className="basis-4/6">
-            <img
-              src={require("../pictures/GF3.jpg")}
-              className=" lg:-top-30 relative  "
-            />
+            <img src={GF3} className=" lg:-top-30 relative  " />
           </div>
           <div className="basis-3/6 flex p-20 justify-center items-center text-xl">
             It's great base for exploring the city, sitting high on the hill in
@@ -46,14 +59,14 @@ const GroundFloor = () => {
             sun all afternoon and evening.
           </div>
           <div className="basis-5/12">
-            <img src={require("../pictures/GF4.jpg")} />
+            <img src={GF4} />
           </div>
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row  lg:mt-20 relative">
         <div className="basis-3/6 relative h-[900px]">
           <img
-            src={require("../pictures/GF5.jpg")}
+            src={GF5}
             className="lg:absolute -top-20 lg:ml-10 lg:h-[900px] w-auto object-cover"
           />
         </div>
@@ -72,14 +85,14 @@ const GroundFloor = () => {
         </div>
         <div className="basis-1/3 relative h-[600px]">
           <img
-            src={require("../pictures/GF6.jpg")}
+            src={GF6}
             className="lg:absolute lg:-top-[200px] lg:right-20 lg:h-[800px]"
           />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/2">
-          <img src={require("../pictures/GF7.jpg")} className="" />
+          <img src={GF7} className="" />
         </div>
         <div className="basis-1/2 flex justify-center items-center p-20">
           Both the living room and kitchen's mountainside east walls are built
@@ -96,17 +109,14 @@ const GroundFloor = () => {
         </div>
         <div className="h-[400px] basis-1/4 relative">
           <img
-            src={require("../pictures/GF8.jpg")}
+            src={GF8}
             className="lg:absolute lg:h-[600px] right-0 lg:-top-[200px]"
           />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className=" basis-1/2 relative  lg:h-[800px] lg:max-w-[1000px]">
-          <img
-            src={require("../pictures/GF9.jpg")}
-            className="lg:absolute left-[170px] object-cover"
-          />
+          <img src={GF9} className="lg:absolute left-[170px] object-cover" />
         </div>
         <div className="basis-1/2 flex jusitfy-center items-center lg:pl-[220px] p-20">
           The windows over the dining table and in the kitchen deliver cool
@@ -120,16 +130,13 @@ const GroundFloor = () => {
           towards the famous Our Lady of Guadalupe church.
         </div>
         <div className="basis-1/3 relative h-[500px]">
-          <img
-            src={require("../pictures/GF10.jpg")}
-            className="lg:absolute  object-cover"
-          />
+          <img src={GF10} className="lg:absolute  object-cover" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/3 relative lg:h-[500px]">
           <img
-            src={require("../pictures/GF11.jpg")}
+            src={GF11}
             className="lg:absolute lg:-top-[200px] object-cover"
           />
         </div>
@@ -148,7 +155,7 @@ const GroundFloor = () => {
         </div>
         <div className="basis-1/2 relative h-[500px] ">
           <img
-            src={require("../pictures/GF12.jpg")}
+            src={GF12}
             className="lg:absolute lg:w-[600px] lg:right-[50px] lg:-top-[400px] object-cover"
           />
         </div>
@@ -156,7 +163,7 @@ const GroundFloor = () => {
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/2 h-[600px] relative">
           <img
-            src={require("../pictures/GF13.jpg")}
+            src={GF13}
             className="lg:absolute lg:w-[500px] lg:right-[100px] lg:-top-[300px] sm:mt-[100px] lg:mt-0 object-cover"
           />
         </div>
@@ -168,16 +175,13 @@ const GroundFloor = () => {
           locally-produced, hand painted, colourful ceramic sinks.
         </div>
         <div className="basis-1/3 relative">
-          <img
-            src={require("../pictures/GF14.jpg")}
-            className="lg:absolute -top-[100px]   object-cover"
-          />
+          <img src={GF14} className="lg:absolute -top-[100px]   object-cover" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/3 relative">
           <img
-            src={require("../pictures/GF15.jpg")}
+            src={GF15}
             className="lg:absolute -top-[150px] h-[700px] lg:w-[700px] m-auto object-cover"
           />
         </div>
@@ -188,14 +192,14 @@ const GroundFloor = () => {
         </div>
         <div className="basis-1/3 relative">
           <img
-            src={require("../pictures/GF16.jpg")}
+            src={GF16}
             className="lg:absolute -bottom-[250px]  h-[400px] lg:w-[300px] sm:m-auto sm:pt-20 object-cover"
           />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row sm:pt-[100px] lg:pt-[300px] h-[900px]">
         <div className="basis-1/2 relative lg:pl-20 ">
-          <img src={require("../pictures/GF17.jpg")} className=" w-[100%]" />
+          <img src={GF17} className=" w-[100%]" />
         </div>
         <div className="basis-1/2 p-20 flex justify-center items-center">
           The balcony hammock was made for afternoon siestas as the cool ocean

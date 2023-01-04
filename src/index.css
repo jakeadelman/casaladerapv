@@ -200,7 +200,7 @@ nav span:hover:after {
 }
 
 .bg-ground {
-  background-image: url('./pictures/GF1.jpg');
+  background-image: url('./pictures/GF1-min.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -215,28 +215,28 @@ nav span:hover:after {
   background-position: center;
 }
 .bg-penthouse {
-  background-image: url('./pictures/ph-main.jpeg');
+  background-image: url('./pictures/ph-main-min.jpeg');
   background-size: cover;
   background-position: center;
 }
 .bg-main-floor {
-  background-image: url('./pictures/MP1.jpg');
+  background-image: url('./pictures/MP1-min.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .back-ground-floor {
-  background-image: url('./pictures/gf-alternate.jpeg');
+  background-image: url('./pictures/gf-alternate-min.jpeg');
   background-size: cover;
 }
 
 .back-main-floor {
-  background-image: url('./pictures/MP19.jpg');
+  background-image: url('./pictures/MP19-min.jpg');
   background-size: cover;
 }
 
 .back-penthouse {
-  background-image: url('./pictures/ph-18-new.jpeg');
+  background-image: url('./pictures/ph-18-new-min.jpeg');
   background-size: cover;
 }
 

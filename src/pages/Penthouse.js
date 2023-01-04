@@ -1,4 +1,21 @@
 import Nav from "../components/Nav";
+import PH2 from "../pictures/PH2-min.jpg";
+import PH3 from "../pictures/PH3-min.jpg";
+import PH4 from "../pictures/PH4-min.jpg";
+import PH5 from "../pictures/PH5-min.jpg";
+import PH6 from "../pictures/PH6-min.jpg";
+import PH7 from "../pictures/PH7-min.jpg";
+import PH8 from "../pictures/PH8-min.jpg";
+import PH9 from "../pictures/PH9-min.jpg";
+import PH10 from "../pictures/PH10-min.jpg";
+import PH11 from "../pictures/PH11-min.jpg";
+import PH12 from "../pictures/PH12-min.jpg";
+import PH13 from "../pictures/PH13-min.jpg";
+import PH14 from "../pictures/PH14-min.jpg";
+import PH15 from "../pictures/PH15-min.jpg";
+import PH16 from "../pictures/PH16-min.jpg";
+import PH17 from "../pictures/PH17-min.jpg";
+
 const Penthouse = () => {
   return (
     <div className=" font-light text-left text-xl ">
@@ -18,13 +35,13 @@ const Penthouse = () => {
           breathtaking sunsets.
         </div>
         <div className="basis-2/5">
-          <img src={require("../pictures/PH2.jpg")} className="" />
+          <img src={PH2} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row lg:mt-[100px]">
         <div className="basis-1/3 lg:pl-[200px] sm:block lg:relative">
           <img
-            src={require("../pictures/PH3.jpg")}
+            src={PH3}
             className="lg:absolute lg:-top-[400px] lg:h-[600px] object-cover"
           />
         </div>
@@ -40,12 +57,12 @@ const Penthouse = () => {
           with the freedom and limitless views of the outdoors.
         </div>
         <div className="basis-2/4">
-          <img src={require("../pictures/PH4.jpg")} className="" />
+          <img src={PH4} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-2/5">
-          <img src={require("../pictures/PH5.jpg")} className="" />
+          <img src={PH5} className="" />
         </div>
         <div className="basis-3/5 flex justify-center items-center p-10 pl-20">
           When the glass floor-to-ceiling doors are fully open, the full-width
@@ -60,12 +77,12 @@ const Penthouse = () => {
           well-earned siesta.
         </div>
         <div className="basis-2/5">
-          <img src={require("../pictures/PH6.jpg")} className="" />
+          <img src={PH6} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-3/5">
-          <img src={require("../pictures/PH7.jpg")} className="lg:pl-[100px]" />
+          <img src={PH7} className="lg:pl-[100px]" />
         </div>
         <div className="basis-2/5 flex justify-center items-center p-10 pl-20">
           Enjoy the local ambiance and relax away from the hustle and bustle of
@@ -76,7 +93,7 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-1/3">
-          <img src={require("../pictures/PH9.jpg")} className="lg:m-10" />
+          <img src={PH9} className="lg:m-10" />
         </div>
         <div className="basis-1/3 flex justify-center items-center pl-[100px] mb-[100px] relative">
           <div className="lg:absolute lg:w-[150%] lg:left-20 sm:mt-[50px]">
@@ -85,10 +102,7 @@ const Penthouse = () => {
           </div>
         </div>
         <div className="basis-1/3 relative">
-          <img
-            src={require("../pictures/PH8.jpg")}
-            className="lg:absolute lg:-top-[100px] lg:w-[80%]"
-          />
+          <img src={PH8} className="lg:absolute lg:-top-[100px] lg:w-[80%]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
@@ -99,12 +113,12 @@ const Penthouse = () => {
           feel like venturing out.
         </div>
         <div className="basis-1/4">
-          <img src={require("../pictures/PH10.jpg")} className="" />
+          <img src={PH10} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row relative">
         <div className="basis-1/4 lg:absolute  lg:-top-[200px] lg:w-[600px]">
-          <img src={require("../pictures/PH11.jpg")} className="" />
+          <img src={PH11} className="" />
         </div>
         <div className="basis-1/4 lg:absolute lg:left-[600px] lg:w-[400px] p-20">
           The open framed wall that separates the kitchen from the dining area
@@ -116,10 +130,10 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row lg:pt-[450px]">
         <div className="basis-1/3">
-          <img src={require("../pictures/PH12.jpg")} className="" />
+          <img src={PH12} className="" />
         </div>
         <div className="basis-1/3 p-20">
-          <img src={require("../pictures/PH13.jpg")} className="" />
+          <img src={PH13} className="" />
         </div>
         <div className="basis-1/3 mt-[100px] sm:mb-[0px] sm:m-20">
           The ensuite bathroom walls, bathtub and shower feature antique Mexican
@@ -129,10 +143,7 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/3">
-          <img
-            src={require("../pictures/PH15.jpg")}
-            className="lg:mt-[200px] sm:mt-[100px]"
-          />
+          <img src={PH15} className="lg:mt-[200px] sm:mt-[100px]" />
         </div>
         <div className="basis-1/3 p-20">
           After a long day in the sun, you'll sleep like a baby in the large,
@@ -142,10 +153,7 @@ const Penthouse = () => {
           is perfect for a siesta - either breve o larga.
         </div>
         <div className="basis-1/3 relative">
-          <img
-            src={require("../pictures/PH14.jpg")}
-            className="lg:absolute lg:-top-[200px]"
-          />
+          <img src={PH14} className="lg:absolute lg:-top-[200px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
@@ -154,12 +162,12 @@ const Penthouse = () => {
           the main patio with the rooftop Skydeck up the circular staircase.
         </div>
         <div className="basis-1/2">
-          <img src={require("../pictures/PH16.jpg")} className="lg:p-20" />
+          <img src={PH16} className="lg:p-20" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/5 sm:mt-[100px]">
-          <img src={require("../pictures/PH17.jpg")} />
+          <img src={PH17} />
         </div>
         <div className="basis-2/5 p-20 flex justify-center items-center">
           Unbelievable, techni-colour sunsets included free-of-charge, seven
