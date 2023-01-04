@@ -33,7 +33,7 @@ const MainFloor = () => {
         <div className="basis-2/5 lg:p-20">
           <img src={MP2} />
         </div>
-        <div className="basis-3/5 sm:p-10 lg:p-0 flex justify-center items-center mb-[150px]">
+        <div className="basis-3/5 sm:p-20 lg:p-0 flex justify-center items-center sm:mb-[100px] lg:mb-[150px]">
           This sunny and spacious slice of heaven offers endless ocean views and
           fantastic sunsets, as it sits on the mountainside overlooking the
           Centro district and the beautiful Bay of Banderas.
@@ -196,7 +196,7 @@ const MainFloor = () => {
         </div>
       </div>
       <div className="w-[100%] back-main-floor h-[1000px] lg:mt-[100px] flex justify-center items-center flex-col">
-        <div className="w-[800px] text-white p-10">
+        <div className="sm:w-[300px] md:w-[500px] lg:w-[800px] text-white p-10">
           Hot hazy days are best spent soking in the infinity pool, looking out
           over the town and drinking in the endless ocean vistas – can’t you see
           yourself here?

@@ -205,12 +205,12 @@ nav span:hover:after {
   background-position: center;
 }
 .bg-reviews {
-  background-image: url('./pictures/RP1.jpg');
+  background-image: url('./pictures/RP1-min.jpg');
   background-size: cover;
   background-position: center;
 }
 .bg-contact {
-  background-image: url('./pictures/back-dark.jpeg');
+  background-image: url('./pictures/back-dark-min.jpeg');
   background-size: cover;
   background-position: center;
 }

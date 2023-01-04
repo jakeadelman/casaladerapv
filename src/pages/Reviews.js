@@ -1,4 +1,10 @@
 import Nav from "../components/Nav";
+import RP2 from "../pictures/RP2-min.jpg";
+import RP3 from "../pictures/RP3-min.jpg";
+import RP4 from "../pictures/RP4-min.jpg";
+import RP5 from "../pictures/RP5-min.jpg";
+import RP6 from "../pictures/RP6-min.jpg";
+import RP7 from "../pictures/RP7-min.jpg";
 
 const Reviews = () => {
   return (
@@ -19,7 +25,7 @@ const Reviews = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/6">
-          <img src={require("../pictures/RP2.jpg")} className="p-10 pl-20" />
+          <img src={RP2} className="p-10 pl-20" />
         </div>
         <div className="basis-3/6 sm:pb-[50px] lg:pb-0 p-10 flex flex-col justify-center items-end">
           The previous reviews are true. The stairs are hard especially if doing
@@ -46,15 +52,12 @@ const Reviews = () => {
           <span className="p-10"> Denise – June 2022</span>
         </div>
         <div className="basis-2/6 relative">
-          <img
-            src={require("../pictures/RP3.jpg")}
-            className="lg:absolute  -top-[100px]"
-          />
+          <img src={RP3} className="lg:absolute  -top-[100px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-3/6">
-          <img src={require("../pictures/RP4.jpg")} />
+          <img src={RP4} />
         </div>
         <div className="basis-3/6 p-10 flex flex-col justify-center items-end mt-[50px] lg:pr-[100px]">
           We had such a wonderful time staying in this unit! All the previous
@@ -80,16 +83,13 @@ const Reviews = () => {
           <span className="p-10">Jatziri – July 2022</span>
         </div>
         <div className="basis-2/6">
-          <img src={require("../pictures/RP5.jpg")} />
+          <img src={RP5} />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/6"></div>
         <div className="basis-2/6 relative h-[450px]">
-          <img
-            src={require("../pictures/RP6.jpg")}
-            className="lg:absolute -top-[100px]"
-          />
+          <img src={RP6} className="lg:absolute -top-[100px]" />
         </div>
         <div className="basis-3/6 p-10 flex flex-col items-end justify-end">
           We stayed on the pool level rather than the whole house. It is a
@@ -121,7 +121,7 @@ const Reviews = () => {
           <span>Jon – December 2021</span>
         </div>
         <div className="basis-1/2">
-          <img src={require("../pictures/RP7.jpg")} />
+          <img src={RP7} />
         </div>
       </div>
     </div>
