@@ -5,6 +5,7 @@ import RP4 from "../pictures/RP4-min.jpg";
 import RP5 from "../pictures/RP5-min.jpg";
 import RP6 from "../pictures/RP6-min.jpg";
 import RP7 from "../pictures/RP7-min.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Reviews = () => {
   return (
@@ -25,7 +26,7 @@ const Reviews = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/6">
-          <img src={RP2} className="p-10 pl-20" />
+          <LazyLoadImage src={RP2} className="p-10 pl-20" />
         </div>
         <div className="basis-3/6 sm:pb-[50px] lg:pb-0 p-10 flex flex-col justify-center items-end">
           The previous reviews are true. The stairs are hard especially if doing
@@ -52,12 +53,12 @@ const Reviews = () => {
           <span className="p-10"> Denise – June 2022</span>
         </div>
         <div className="basis-2/6 relative">
-          <img src={RP3} className="lg:absolute  -top-[100px]" />
+          <LazyLoadImage src={RP3} className="lg:absolute  -top-[100px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-3/6">
-          <img src={RP4} />
+          <LazyLoadImage src={RP4} />
         </div>
         <div className="basis-3/6 p-10 flex flex-col justify-center items-end mt-[50px] lg:pr-[100px]">
           We had such a wonderful time staying in this unit! All the previous
@@ -74,7 +75,7 @@ const Reviews = () => {
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/6"></div>
-        <div className="basis-3/6 sm:p-10 lg:p-0 flex flex-col justify-center items-end pr-10">
+        <div className="basis-3/6 sm:p-10 lg:p-0 flex flex-col justify-center items-end lg:pr-20">
           This home is amazing from the views to the location! Sunsets are to
           die for and neighbors are so nice we had such a great time and our
           contact Omar was beyond helpful couldn’t thank him enough for
@@ -83,13 +84,13 @@ const Reviews = () => {
           <span className="p-10">Jatziri – July 2022</span>
         </div>
         <div className="basis-2/6">
-          <img src={RP5} />
+          <LazyLoadImage src={RP5} />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/6"></div>
         <div className="basis-2/6 relative h-[450px]">
-          <img src={RP6} className="lg:absolute -top-[100px]" />
+          <LazyLoadImage src={RP6} className="lg:absolute -top-[100px]" />
         </div>
         <div className="basis-3/6 p-10 flex flex-col items-end justify-end">
           We stayed on the pool level rather than the whole house. It is a
@@ -121,7 +122,7 @@ const Reviews = () => {
           <span>Jon – December 2021</span>
         </div>
         <div className="basis-1/2">
-          <img src={RP7} />
+          <LazyLoadImage src={RP7} />
         </div>
       </div>
     </div>

@@ -15,6 +15,7 @@ import GF14 from "../pictures/GF14-min.jpg";
 import GF15 from "../pictures/GF15-min.jpg";
 import GF16 from "../pictures/GF16-min.jpg";
 import GF17 from "../pictures/GF17-min.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const GroundFloor = () => {
   return (
@@ -36,14 +37,14 @@ const GroundFloor = () => {
             large, fully operable windows to let in the air and ocean breezes.
           </div>
           <div className="basis-1/3 ">
-            <img src={GF2} className="" />
+            <LazyLoadImage src={GF2} className="" />
           </div>
         </div>
       </div>
       <div className="relative ">
         <div className=" flex lg:flex-row lg:mt-20 relative sm:flex-col-reverse ">
           <div className="basis-4/6">
-            <img src={GF3} className=" lg:-top-30 relative  " />
+            <LazyLoadImage src={GF3} className=" lg:-top-30 relative  " />
           </div>
           <div className="basis-3/6 flex p-20 justify-center items-center text-xl">
             It's great base for exploring the city, sitting high on the hill in
@@ -59,13 +60,13 @@ const GroundFloor = () => {
             sun all afternoon and evening.
           </div>
           <div className="basis-5/12">
-            <img src={GF4} />
+            <LazyLoadImage src={GF4} />
           </div>
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row  lg:mt-20 relative">
         <div className="basis-3/6 relative h-[900px]">
-          <img
+          <LazyLoadImage
             src={GF5}
             className="lg:absolute -top-20 lg:ml-10 lg:h-[900px] w-auto object-cover"
           />
@@ -84,7 +85,7 @@ const GroundFloor = () => {
           living room couches!
         </div>
         <div className="basis-1/3 relative h-[600px]">
-          <img
+          <LazyLoadImage
             src={GF6}
             className="lg:absolute lg:-top-[200px] lg:right-20 lg:h-[800px]"
           />
@@ -92,7 +93,7 @@ const GroundFloor = () => {
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/2">
-          <img src={GF7} className="" />
+          <LazyLoadImage src={GF7} className="" />
         </div>
         <div className="basis-1/2 flex justify-center items-center p-20">
           Both the living room and kitchen's mountainside east walls are built
@@ -108,7 +109,7 @@ const GroundFloor = () => {
           covers the countertops.
         </div>
         <div className="h-[400px] basis-1/4 relative">
-          <img
+          <LazyLoadImage
             src={GF8}
             className="lg:absolute lg:h-[600px] right-0 lg:-top-[200px]"
           />
@@ -116,7 +117,10 @@ const GroundFloor = () => {
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className=" basis-1/2 relative  lg:h-[800px] lg:max-w-[1000px]">
-          <img src={GF9} className="lg:absolute left-[170px] object-cover" />
+          <LazyLoadImage
+            src={GF9}
+            className="lg:absolute left-[170px] object-cover"
+          />
         </div>
         <div className="basis-1/2 flex jusitfy-center items-center lg:pl-[220px] p-20">
           The windows over the dining table and in the kitchen deliver cool
@@ -130,12 +134,12 @@ const GroundFloor = () => {
           towards the famous Our Lady of Guadalupe church.
         </div>
         <div className="basis-1/3 relative h-[500px]">
-          <img src={GF10} className="lg:absolute  object-cover" />
+          <LazyLoadImage src={GF10} className="lg:absolute  object-cover" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/3 relative lg:h-[500px]">
-          <img
+          <LazyLoadImage
             src={GF11}
             className="lg:absolute lg:-top-[200px] object-cover"
           />
@@ -154,7 +158,7 @@ const GroundFloor = () => {
           to the balcony, and views of the bay as well. This is bedroom #2.
         </div>
         <div className="basis-1/2 relative h-[500px] ">
-          <img
+          <LazyLoadImage
             src={GF12}
             className="lg:absolute lg:w-[600px] lg:right-[50px] lg:-top-[400px] object-cover"
           />
@@ -162,7 +166,7 @@ const GroundFloor = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/2 h-[600px] relative">
-          <img
+          <LazyLoadImage
             src={GF13}
             className="lg:absolute lg:w-[500px] lg:right-[100px] lg:-top-[300px] sm:mt-[100px] lg:mt-0 object-cover"
           />
@@ -175,12 +179,15 @@ const GroundFloor = () => {
           locally-produced, hand painted, colourful ceramic sinks.
         </div>
         <div className="basis-1/3 relative">
-          <img src={GF14} className="lg:absolute -top-[100px]   object-cover" />
+          <LazyLoadImage
+            src={GF14}
+            className="lg:absolute -top-[100px]   object-cover"
+          />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
         <div className="basis-1/3 relative">
-          <img
+          <LazyLoadImage
             src={GF15}
             className="lg:absolute -top-[150px] h-[700px] lg:w-[700px] m-auto object-cover"
           />
@@ -191,7 +198,7 @@ const GroundFloor = () => {
           breezes.
         </div>
         <div className="basis-1/3 relative">
-          <img
+          <LazyLoadImage
             src={GF16}
             className="lg:absolute -bottom-[250px]  h-[400px] lg:w-[300px] sm:m-auto sm:pt-20 object-cover"
           />
@@ -199,7 +206,7 @@ const GroundFloor = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row sm:pt-[100px] lg:pt-[300px] h-[900px]">
         <div className="basis-1/2 relative lg:pl-20 ">
-          <img src={GF17} className=" w-[100%]" />
+          <LazyLoadImage src={GF17} className=" w-[100%]" />
         </div>
         <div className="basis-1/2 p-20 flex justify-center items-center">
           The balcony hammock was made for afternoon siestas as the cool ocean

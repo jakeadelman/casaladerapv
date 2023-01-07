@@ -15,6 +15,7 @@ import PH14 from "../pictures/PH14-min.jpg";
 import PH15 from "../pictures/PH15-min.jpg";
 import PH16 from "../pictures/PH16-min.jpg";
 import PH17 from "../pictures/PH17-min.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Penthouse = () => {
   return (
@@ -35,12 +36,12 @@ const Penthouse = () => {
           breathtaking sunsets.
         </div>
         <div className="basis-2/5">
-          <img src={PH2} className="" />
+          <LazyLoadImage src={PH2} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row lg:mt-[100px]">
         <div className="basis-1/3 lg:pl-[200px] sm:block lg:relative">
-          <img
+          <LazyLoadImage
             src={PH3}
             className="lg:absolute lg:-top-[400px] lg:h-[600px] object-cover"
           />
@@ -57,12 +58,12 @@ const Penthouse = () => {
           with the freedom and limitless views of the outdoors.
         </div>
         <div className="basis-2/4">
-          <img src={PH4} className="" />
+          <LazyLoadImage src={PH4} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-2/5">
-          <img src={PH5} className="" />
+          <LazyLoadImage src={PH5} className="" />
         </div>
         <div className="basis-3/5 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20">
           When the glass floor-to-ceiling doors are fully open, the full-width
@@ -77,12 +78,12 @@ const Penthouse = () => {
           well-earned siesta.
         </div>
         <div className="basis-2/5">
-          <img src={PH6} className="" />
+          <LazyLoadImage src={PH6} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row mt-[100px]">
         <div className="basis-3/5">
-          <img src={PH7} className="lg:pl-[100px]" />
+          <LazyLoadImage src={PH7} className="lg:pl-[100px]" />
         </div>
         <div className="basis-2/5 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20">
           Enjoy the local ambiance and relax away from the hustle and bustle of
@@ -93,7 +94,7 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
         <div className="basis-1/3">
-          <img src={PH9} className="lg:m-10" />
+          <LazyLoadImage src={PH9} className="lg:m-10" />
         </div>
         <div className="basis-1/3 flex justify-center items-center sm:p-20 lg:p-0 lg:pl-[100px] mb-[100px] relative">
           <div className="lg:absolute lg:w-[150%] lg:left-20 sm:mt-[50px]">
@@ -102,7 +103,10 @@ const Penthouse = () => {
           </div>
         </div>
         <div className="basis-1/3 relative">
-          <img src={PH8} className="lg:absolute lg:-top-[100px] lg:w-[80%]" />
+          <LazyLoadImage
+            src={PH8}
+            className="lg:absolute lg:-top-[100px] lg:w-[80%]"
+          />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
@@ -113,12 +117,12 @@ const Penthouse = () => {
           feel like venturing out.
         </div>
         <div className="basis-1/4">
-          <img src={PH10} className="" />
+          <LazyLoadImage src={PH10} className="" />
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row relative">
         <div className="basis-1/4 lg:absolute  lg:-top-[200px] lg:w-[600px]">
-          <img src={PH11} className="" />
+          <LazyLoadImage src={PH11} className="" />
         </div>
         <div className="basis-1/4 lg:absolute lg:left-[600px] lg:w-[400px] p-20">
           The open framed wall that separates the kitchen from the dining area
@@ -130,10 +134,10 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row lg:pt-[450px]">
         <div className="basis-1/3">
-          <img src={PH12} className="" />
+          <LazyLoadImage src={PH12} className="" />
         </div>
         <div className="basis-1/3 p-20">
-          <img src={PH13} className="" />
+          <LazyLoadImage src={PH13} className="" />
         </div>
         <div className="basis-1/3 mt-[100px] sm:mb-[0px] sm:m-20">
           The ensuite bathroom walls, bathtub and shower feature antique Mexican
@@ -143,17 +147,17 @@ const Penthouse = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-1/3">
-          <img src={PH15} className="lg:mt-[200px] sm:mt-[100px]" />
+          <LazyLoadImage src={PH15} className="lg:mt-[200px] sm:mt-[100px]" />
         </div>
         <div className="basis-1/3 p-20">
           After a long day in the sun, you'll sleep like a baby in the large,
           airy bedroom - it has air conditioning and a ceiling fan, but you may
           not need them thanks to the cool inversion wind rolling nightly down
-          the mountain. The king-sized bed, under the wood beam vaulted ceiling,
+          the mountain. The king-size bed, under the wood beam vaulted ceiling,
           is perfect for a siesta - either breve o larga.
         </div>
         <div className="basis-1/3 relative">
-          <img src={PH14} className="lg:absolute lg:-top-[200px]" />
+          <LazyLoadImage src={PH14} className="lg:absolute lg:-top-[200px]" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
@@ -162,12 +166,12 @@ const Penthouse = () => {
           the main patio with the rooftop Skydeck up the circular staircase.
         </div>
         <div className="basis-1/2">
-          <img src={PH16} className="lg:p-20" />
+          <LazyLoadImage src={PH16} className="lg:p-20" />
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
         <div className="basis-2/5 sm:mt-[100px]">
-          <img src={PH17} />
+          <LazyLoadImage src={PH17} />
         </div>
         <div className="basis-2/5 p-20 flex justify-center items-center">
           Unbelievable, techni-colour sunsets included free-of-charge, seven
