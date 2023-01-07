@@ -19,7 +19,7 @@ const Reviews = () => {
           </div>
           <div className="text-white p-10 mt-[0px] mb-[200px] sm:w-[350px] md:w-[600px]">
             Here’s what some of our past guests have had to say about their stay
-            at Casa Ladera. All reviews originate from on our Airbnb listings.
+            at Casa Ladera. All reviews originate from our Airbnb listings.
           </div>
         </div>
       </div>

@@ -101,7 +101,7 @@ const GroundFloor = () => {
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row">
-        <div className="basis-3/4 flex justify-right items-center p-20 pr-0 lg:pl-[400px]">
+        <div className="basis-3/4 flex justify-right items-center p-20 lg:pr-0 lg:pl-[400px]">
           The well-appointed kitchen has all you'll need to enjoy preparing a
           delicious home cooked meal and it’s walls are a combination of natural
           local stone, brilliantly colourful stucco and ceramic tile, which also
@@ -170,7 +170,7 @@ const GroundFloor = () => {
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:h-[100px] relative lg:-top-[350px]">
         <div className="basis-2/3 sm:pt-20 lg:pt-0 pb-20 pl-20 pr-20 lg:mb-[100px] ">
-          Both ensuite bathroom’s walls, bathtub and shower all feature antique
+          Both ensuite bathroom walls, bathtub and shower all feature antique
           Mexican glass tiles. The granite-topped bathroom counters each feature
           locally-produced, hand painted, colourful ceramic sinks.
         </div>

@@ -37,7 +37,7 @@ const Section3 = () => {
           </div>
 
           <div className="basis-1/3 p-2 card z-20">
-            <a href="/ground-floor">
+            <a href="/2-bedroom">
               <img src={HP8} className="" />
               <p className="mt-10 text-2xl pb-10 text-left font-light">
                 2 Bedroom Villa

@@ -41,7 +41,7 @@ const Section2 = () => {
           </a>
         </div>
         <div className="flex flex-row">
-          <a href="/ground-floor">
+          <a href="/2-bedroom">
             <div class="container2 cursor-pointer">
               <img src={HP5} className="image w-[400px] md-img" />
               <div class="middle">

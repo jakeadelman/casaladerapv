@@ -54,8 +54,8 @@ const MainFloor = () => {
           <img src={MP4} className="lg:w-[600px]" />
         </div>
         <div className="basis-1/3 p-4 sm:p-20 lg:pl-10 lg:pr-[150px] flex items-center pb-20">
-          With the walls opened up,the large, modern indoor space is expanded by
-          combining it with the partially shaded outdoor deck and the private
+          With the walls opened up, the large, modern indoor space is expanded
+          by combining it with the partially shaded outdoor deck and the private
           infinity pool.
         </div>
         <div className="basis-1/3 relative">
@@ -77,7 +77,7 @@ const MainFloor = () => {
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
-        <div className="basis-3/5 p-20 pr-4">
+        <div className="basis-3/5 p-20 lg:pr-4">
           The breakfast room sits adjacent to the kitchen, with a large
           semi-circular window overlooking the living room, as well as the town
           and Banderas Bay beyond - it's breakfast with a view!
@@ -91,7 +91,7 @@ const MainFloor = () => {
           <img src={MP8} className="lg:pl-20" />
         </div>
         <div className="basis-2/3 p-20 lg:mb-[200px]">
-          The large dinner table seats six with ease,so you can enjoy a meal at
+          The large dinner table seats six with ease, so you can enjoy a meal at
           home as you look out over the city and the Pacific ocean below.
         </div>
       </div>
@@ -186,7 +186,7 @@ const MainFloor = () => {
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row">
-        <div className="basis-1/2 p-20 pr-5 flex items-center">
+        <div className="basis-1/2 p-20 lg:pr-5 flex items-center">
           Whether you're floating on top of the water or sitting below it on the
           submerged bench seat in the pool, peace and tranquility come easy as
           you watch the sun slowly tumble into the sea every afternoon.
@@ -197,7 +197,7 @@ const MainFloor = () => {
       </div>
       <div className="w-[100%] back-main-floor h-[1000px] lg:mt-[100px] flex justify-center items-center flex-col">
         <div className="sm:w-[300px] md:w-[500px] lg:w-[800px] text-white p-10">
-          Hot hazy days are best spent soking in the infinity pool, looking out
+          Hot hazy days are best spent soaking in the infinity pool, looking out
           over the town and drinking in the endless ocean vistas – can’t you see
           yourself here?
         </div>

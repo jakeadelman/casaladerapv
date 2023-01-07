@@ -46,12 +46,12 @@ const Penthouse = () => {
           />
         </div>
         <div className="basis-2/3 lg:pl-[200px] lg:pr-[250px] sm:m-[100px]">
-          This is a very large, bright penthouse - more that 2,000 square feet –
+          This is a very large, bright penthouse - more than 2,000 square feet –
           with plenty of indoor/outdoor space offering both sun & shade.
         </div>
       </div>
       <div className="flex sm:flex-col lg:flex-row lg:mt-[100px]">
-        <div className="basis-2/4 flex justify-center items-center p-10 pl-20">
+        <div className="basis-2/4 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20">
           The unit has fully opening glass floor-to-ceiling doors on two sides
           to maximize light and ventilation and combine the elegant indoor space
           with the freedom and limitless views of the outdoors.
@@ -64,15 +64,15 @@ const Penthouse = () => {
         <div className="basis-2/5">
           <img src={PH5} className="" />
         </div>
-        <div className="basis-3/5 flex justify-center items-center p-10 pl-20">
+        <div className="basis-3/5 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20">
           When the glass floor-to-ceiling doors are fully open, the full-width
           patio literally becomes an extension of the living space.
         </div>
       </div>
       <div className="flex sm:flex-col-reverse lg:flex-row lg:mt-[100px] ">
-        <div className="basis-3/5 flex justify-center items-center p-10 pl-20 sm:mb-0 sm:pt-20 lg:pt-0 sm:pb-0">
+        <div className="basis-3/5 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20 sm:mb-0 sm:pt-20 lg:pt-0 sm:pb-0">
           Above the patio sits a separate, ultra-private rooftop Skydeck so you
-          can relax in the sky with an impressive 2700 view of the Bay and
+          can relax in the sky with an impressive 270° view of the Bay and
           surroundings – it’s perfect for afternoon reading, lounging or a
           well-earned siesta.
         </div>
@@ -84,7 +84,7 @@ const Penthouse = () => {
         <div className="basis-3/5">
           <img src={PH7} className="lg:pl-[100px]" />
         </div>
-        <div className="basis-2/5 flex justify-center items-center p-10 pl-20">
+        <div className="basis-2/5 flex justify-center items-center sm:p-20 lg:p-10 lg:pl-20">
           Enjoy the local ambiance and relax away from the hustle and bustle of
           the beach and downtown. But when it's time to move, it’s just a 7
           minute stroll down to many fine restaurants, art galleries and of
